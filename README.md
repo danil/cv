@@ -1,7 +1,7 @@
 kutkevch.org
 ============
 
-This is Danil Kutkevich homepage <http://kutkevich.org>. My homepage
+This is Danil Kutkevich's homepage <http://kutkevich.org>. My homepage
 use Lua programming language with Orbit MVC web framework.
 
 Depends:
@@ -14,7 +14,7 @@ Depends:
 * jQuery (>= 1.3.2) <http://jquery.com>
 * Blueprint (>= 0.9) <http://blueprintcss.org>
 
-Copyright (C) 2007, 2009, 2010 Danil Kutkevich
+Copyright (C) 2007, 2008, 2009, 2010 Danil Kutkevich
 <http://danil.kutkevich.org>
 
 This program is free software: you can redistribute it and/or modify
