@@ -1,8 +1,9 @@
-*~
 *#
 *.#*
+*~
 .htpasswd
-public/jquery.js
-public/stylesheets/blueprint/*
-public/prettify/*
 markdown/bookmarks/*
+markdown/rc/*
+public/jquery.js
+public/prettify/*
+public/stylesheets/blueprint/*
