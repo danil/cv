@@ -2,7 +2,6 @@
 *.#*
 *~
 .htpasswd
-markdown/rc
 public/jquery.js
 public/prettify
 public/stylesheets/blueprint
