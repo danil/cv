@@ -1,0 +1,3 @@
+[submodule "markdown/bookmarks"]
+	path = markdown/bookmarks
+	url = git://kutkevich.org/bookmarks.git

@@ -2,7 +2,6 @@
 *.#*
 *~
 .htpasswd
-markdown/bookmarks
 markdown/rc
 public/jquery.js
 public/prettify
