@@ -4,3 +4,6 @@
 [submodule "markdown/rc"]
 	path = markdown/rc
 	url = git://kutkevich.org/rc.git
+[submodule "public/jquery"]
+	path = public/jquery
+	url = git://github.com/jquery/jquery.git
