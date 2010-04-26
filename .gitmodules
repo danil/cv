@@ -7,3 +7,6 @@
 [submodule "public/jquery"]
 	path = public/jquery
 	url = git://github.com/jquery/jquery.git
+[submodule "public/blueprint"]
+	path = public/blueprint
+	url = git://github.com/joshuaclayton/blueprint-css.git
