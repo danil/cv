@@ -3,7 +3,6 @@ Danil Kutkevich's CV
 
 Danil Kutkevich's curriculum vitae <http://danil.kutkevich.org>. I use
 for my CV Markdown lightweight markup language.
-
 Copyright (C) 2007, 2008, 2009, 2010 Danil Kutkevich
 <http://danil.kutkevich.org>
 
