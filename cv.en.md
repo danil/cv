@@ -1,7 +1,7 @@
 <!-- -*- coding: utf-8-unix; -*-
      Danil Kutkevich's CV
-     Copyright (C) 2007, 2008, 2009, 2010 Danil Kutkevich
-     <http://danil.kutkevich.org> -->
+     Copyright (C) 2007, 2008, 2009,
+     2010 Danil Kutkevich <danil@kutkevich.org> -->
 
 Danil Kutkevich
 ===============
