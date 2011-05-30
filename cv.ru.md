@@ -1,7 +1,7 @@
 <!-- -*- coding: utf-8-unix; -*-
      Danil Kutkevich's CV
      Copyright (C) 2007, 2008, 2009,
-     2010 Danil Kutkevich <danil@kutkevich.org> -->
+     2010, 2011 Danil Kutkevich <danil@kutkevich.org> -->
 
 Данил Куткевич
 ==============
@@ -18,11 +18,21 @@
 История занятости
 -----------------
 
-Работаю веб-программистом с 2003-го года по настоящее время (2010)
+Работаю веб-программистом с 2003-го года по настоящее время (2011)
+
+### ООО "Аверс"
+
+С 09.2010 по настоящее время
+
+*   [биржу независимых специалистов PROhq](http://prohq.ru):  
+    Программирование на _[Ruby][]_ и _[JavaScript][]_.
+
+    _Ключевые слова_: _[Ruby on Rails][]_, _[MySQL][]_, _[jQuery][]_,
+    _[Sphinx][]_, _[Git][]_, _[nginx][]_.
 
 ### [ООО "Джон студия"](http://john.ru)
 
-С 03.2008 по настоящее время
+03.2008-09.2010
 
 *   [Хоккейный клуб СКА](http://hc-ska.ru):  
     Программирование на _[Ruby][]_, _[JavaScript][]_ и
@@ -94,6 +104,7 @@
 [Ruby on Rails]: http://ru.wikipedia.org/wiki/Ruby_on_Rails "RoR (каркас для создания веб-приложений)"
 [Ruby]: http://ru.wikipedia.org/wiki/Ruby
 [Smarty]: http://ru.wikipedia.org/wiki/Smarty "Обработчик шаблонов"
+[Sphinx]: http://ru.wikipedia.org/wiki/Sphinx_(поисковая_система) "Система полнотекстового поиска"
 [Subversion]: http://ru.wikipedia.org/wiki/Subversion "SVN (система управления версиями)"
 [VPS]: http://ru.wikipedia.org/wiki/VPS "Virtual private server (виртуальный выделенный сервер)"
 [jQuery]: http://ru.wikipedia.org/wiki/JQuery "Библиотека JavaScript"
