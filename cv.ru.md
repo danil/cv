@@ -24,7 +24,7 @@
 
 С 09.2010 по настоящее время
 
-*   [биржу независимых специалистов PROhq](http://prohq.ru):  
+*   [Биржа независимых специалистов PROhq](http://prohq.ru):  
     Программирование на _[Ruby][]_ и _[JavaScript][]_.
 
     _Ключевые слова_: _[Ruby on Rails][]_, _[MySQL][]_, _[jQuery][]_,
@@ -93,6 +93,7 @@
 [CVS]: http://ru.wikipedia.org/wiki/CVS "Concurrent versions system (система управления версиями)"
 [ColdFusion]: http://ru.wikipedia.org/wiki/ColdFusion
 [Debian]: http://ru.wikipedia.org/wiki/Debian "Debian GNU/Linux"
+[Git]: http://ru.wikipedia.org/wiki/Git "Распределённая система управления версиями"
 [JBoss Seam]: http://ru.wikipedia.org/wiki/JBoss_Seam "Каркас для создания веб-приложений"
 [JSF]: http://ru.wikipedia.org/wiki/JavaServer_Faces "JavaServer Faces"
 [JavaScript]: http://ru.wikipedia.org/wiki/JavaScript
