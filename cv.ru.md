@@ -8,49 +8,45 @@
 
 30 января 1980 года рождения.  
 Электронная почта: [danil(почтовый.ящик.на)kutkevich.org][email]  
-Джаббер/XMPP: [danilkutkevich@jabber.org](xmpp:danilkutkevich@jabber.org)  
+Джаббер/XMPP: [danilkutkevich@jabber.org][]  
 Адрес: 195279, Россия, Санкт-Петербург, [ул. Передовиков, д. 25][], кв. 24  
-Телефон: [+7-812-529-7760](tel:+7-812-529-7760)
-
-[ул. Передовиков, д. 25]: http://maps.google.com/maps?f=q&hl=en&geocode=&q=Russia,+Sankt-Peterburg,+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2+25&sll=59.944404,30.46278&sspn=0.024718,0.058365&ie=UTF8&z=15&iwloc=addr&om=1
-[email]: danil(почтовый.ящик.на)kutkevich.org
+Телефон: [+7-812-529-7760][]
 
 История занятости
 -----------------
 
-Работаю веб-программистом с 2003-го года по настоящее время (2011)
+**Работаю веб-программистом с 2003-го года по настоящее время (2011)**
 
 ### ООО "Аверс"
 
 С 09.2010 по настоящее время
 
-*   [Биржа независимых специалистов PROhq](http://prohq.ru):  
+*   [Биржа независимых специалистов PROhq][]:  
     Программирование на Ruby и JavaScript.
 
     Ключевые слова: Ruby on Rails, MySQL, Haml, Sass, jQuery, Sphinx,
     Git, nginx.
 
-### [ООО "Джон студия"](http://john.ru)
+### [ООО "Джон студия"][]
 
 03.2008-09.2010
 
-*   [Хоккейный клуб СКА](http://hc-ska.ru):  
+*   [Хоккейный клуб СКА][]:  
     Программирование на Ruby, JavaScript и конфигурирование сервера.
 
     Ключевые слова: Ruby on Rails, Subversion, jQuery, VPS, Debian,
     PostgreSQL, nginx, Mongrel, Bash script.
 
-*   [Такси-бетон](http://taxibeton.ru)
-    и [Mobotix AG в России](http://mobotix-russia.ru):  
+*   [Такси-бетон][] и [Mobotix AG в России][]:  
     Программирование на PHP, Bash script и вёрстка.
 
     Ключевые слова: Smarty, MySQL, CSS, CVS.
 
-### [ООО "Дараут Сервис"](http://darout.ru/rus/)
+### [ООО "Дараут Сервис"][]
 
 11.2004-03.2008
 
-*   Рефакторинг [hotelguide.com](http://hotelguide.com):  
+*   Рефакторинг [hotelguide.com][]:  
     Программирование пользовательского интерфейса на JSF и JavaScript.
 
     Ключевые слова: JBoss Seam, MySQL, CVS.
@@ -64,15 +60,12 @@
 *   tune management & training:  
     Программирование на ASP и вёрстка.
 
-### [ЗАО "Инвестиционная Компания Ленмонтажстрой"][lms]
-
-[lms]: http://lmsic.com
+### [ЗАО "Инвестиционная Компания Ленмонтажстрой"][]
 
 06.2003-11.2004
 
-*   [Старая Ладога](http://oldladoga.ru),
-    Инвестиционная Компания Ленмонтажстрой
-    и [Туристическая компания Ладога-Тур](http://ladoga-tour.ru):  
+*   [Старая Ладога][], Инвестиционная Компания Ленмонтажстрой
+    и [Туристическая компания Ладога-Тур][]:  
     Программирование на PHP и вёрстка.
 
     Ключевое слово: MySQL.
@@ -87,9 +80,8 @@
 -----------
 
 Незаконченное высшее.
-[Санкт-Петербургский государственный университет телекоммуникаций
-им. проф. М.А.Бонч-Бруевича](http://sut.ru). Факультет многоканальных
-телекоммуникационных систем.
+[Санкт-Петербургский государственный университет телекоммуникаций им. проф. М.А.Бонч-Бруевича][sut].
+Факультет многоканальных телекоммуникационных систем.
 <!-- Заочная форма обучения. -->
 
 С чем работал по алфавиту
@@ -145,6 +137,22 @@
 [jQuery]: http://ru.wikipedia.org/wiki/JQuery "Библиотека JavaScript"
 [nginx]: http://ru.wikipedia.org/wiki/Nginx "Веб-сервер"
 
-[My cv in the english language](/en).
+[+7-812-529-7760]: tel:+7-812-529-7760
+[Mobotix AG в России]: http://mobotix-russia.ru
+[danilkutkevich@jabber.org]: xmpp:danilkutkevich@jabber.org
+[email]: danil(почтовый.ящик.на)kutkevich.org
+[hotelguide.com]: http://hotelguide.com
+[sut]: http://sut.ru
+[Биржа независимых специалистов PROhq]: http://prohq.ru
+[ЗАО "Инвестиционная Компания Ленмонтажстрой"]: http://lmsic.com
+[ООО "Дараут Сервис"]: http://darout.ru/rus/
+[ООО "Джон студия"]: http://john.ru
+[Старая Ладога]: http://oldladoga.ru
+[Такси-бетон]: http://taxibeton.ru
+[Туристическая компания Ладога-Тур]: http://ladoga-tour.ru
+[Хоккейный клуб СКА]: http://hc-ska.ru
+[ул. Передовиков, д. 25]: http://maps.google.com/maps?f=q&hl=en&geocode=&q=Russia,+Sankt-Peterburg,+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2+25&sll=59.944404,30.46278&sspn=0.024718,0.058365&ie=UTF8&z=15&iwloc=addr&om=1
+
+[My cv in the english language](/en/cv).
 
 <!-- Created: 23 Aug 2007. -->

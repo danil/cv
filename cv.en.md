@@ -101,6 +101,6 @@ Education
 3rd year of the [St.-Petersburg University of Telecommunications of a
 name of professor M. A. Bonch-Bruevich](http://sut.ru).
 
-[Моё резюме на русском языке](/ru).
+[Моё резюме на русском языке](/cv/ru).
 
 <!-- Created: 2 Aug 2007. -->
