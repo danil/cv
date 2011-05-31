@@ -25,46 +25,43 @@
 С 09.2010 по настоящее время
 
 *   [Биржа независимых специалистов PROhq](http://prohq.ru):  
-    Программирование на _Ruby_ и _JavaScript_.
+    Программирование на Ruby и JavaScript.
 
-    _Ключевые слова_: _Ruby on Rails_, _MySQL_, _jQuery_, _Sphinx_,
-    _Git_, _nginx_.
+    Ключевые слова: Ruby on Rails, MySQL, jQuery, Sphinx, Git, nginx.
 
 ### [ООО "Джон студия"](http://john.ru)
 
 03.2008-09.2010
 
 *   [Хоккейный клуб СКА](http://hc-ska.ru):  
-    Программирование на _Ruby_, _JavaScript_ и конфигурирование
-    сервера.
+    Программирование на Ruby, JavaScript и конфигурирование сервера.
 
-    _Ключевые слова_: _Ruby on Rails_, _Subversion_, _jQuery_, _VPS_,
-    _Debian_, _PostgreSQL_, _nginx_, _Mongrel_, _Bash script_.
+    Ключевые слова: Ruby on Rails, Subversion, jQuery, VPS, Debian,
+    PostgreSQL, nginx, Mongrel, Bash script.
 
 *   [Такси-бетон](http://taxibeton.ru)
     и [Mobotix AG в России](http://mobotix-russia.ru):  
-    Программирование на _PHP_, _Bash script_ и вёрстка.
+    Программирование на PHP, Bash script и вёрстка.
 
-    _Ключевые слова_: _Smarty_, _MySQL_, _CSS_, _CVS_.
+    Ключевые слова: Smarty, MySQL, CSS, CVS.
 
 ### [ООО "Дараут Сервис"](http://darout.ru/rus/)
 
 11.2004-03.2008
 
 *   Рефакторинг [hotelguide.com](http://hotelguide.com):  
-    Программирование пользовательского интерфейса на _JSF_ и
-    _JavaScript_.
+    Программирование пользовательского интерфейса на JSF и JavaScript.
 
-    _Ключевые слова_: _JBoss Seam_, _MySQL_, _CVS_.
+    Ключевые слова: JBoss Seam, MySQL, CVS.
 
 *   Система поиска и бронирования отелей hotelguide.com:  
-    Программирование на _ColdFusion_, _JavaScript_, вёрстка и
+    Программирование на ColdFusion, JavaScript, вёрстка и
     конфигурирование веб-сервера.
 
-    _Ключевые слова_: _MySQL_, _CSS_, _CVS_, _Apache_.
+    Ключевые слова: MySQL, CSS, CVS, Apache.
 
 *   tune management & training:  
-    Программирование на _ASP_ и вёрстка.
+    Программирование на ASP и вёрстка.
 
 ### [ЗАО "Инвестиционная Компания Ленмонтажстрой"][lms]
 
@@ -75,9 +72,9 @@
 *   [Старая Ладога](http://oldladoga.ru),
     Инвестиционная Компания Ленмонтажстрой
     и [Туристическая компания Ладога-Тур](http://ladoga-tour.ru):  
-    Программирование на _PHP_ и вёрстка.
+    Программирование на PHP и вёрстка.
 
-    _Ключевое слово_: _MySQL_.
+    Ключевое слово: MySQL.
 
 <!--
 ### Вооружённые силы Российской Федерации 06.2001-05.2003 Рядовой войск связи
@@ -97,30 +94,30 @@
 С чем работал по алфавиту
 -------------------------
 
-* _[ASP][]_
-* _[Apache][]_
-* _[Bash script][]_
-* _[CSS][]_
-* _[CVS][]_
-* _[ColdFusion][]_
-* _[Debian][]_
-* _[Git][]_
-* _[JBoss Seam][]_
-* _[JSF][]_
-* _[JavaScript][]_
-* _[Mongrel][]_
-* _[MySQL][]_
-* _[Oracle][]_
-* _[PHP][]_
-* _[PostgreSQL][]_
-* _[Ruby on Rails][]_
-* _[Ruby][]_
-* _[Smarty][]_
-* _[Sphinx][]_
-* _[Subversion][]_
-* _[VPS][]_
-* _[jQuery][]_
-* _[nginx][]_
+* [ASP][]
+* [Apache][]
+* [Bash script][]
+* [CSS][]
+* [CVS][]
+* [ColdFusion][]
+* [Debian][]
+* [Git][]
+* [JBoss Seam][]
+* [JSF][]
+* [JavaScript][]
+* [Mongrel][]
+* [MySQL][]
+* [Oracle][]
+* [PHP][]
+* [PostgreSQL][]
+* [Ruby on Rails][]
+* [Ruby][]
+* [Smarty][]
+* [Sphinx][]
+* [Subversion][]
+* [VPS][]
+* [jQuery][]
+* [nginx][]
 
 [ASP]: http://ru.wikipedia.org/wiki/Active_Server_Pages "Active Server Pages"
 [Apache]: http://ru.wikipedia.org/wiki/Apache "Веб-сервер"
