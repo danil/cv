@@ -27,7 +27,8 @@
 *   [Биржа независимых специалистов PROhq](http://prohq.ru):  
     Программирование на Ruby и JavaScript.
 
-    Ключевые слова: Ruby on Rails, MySQL, jQuery, Sphinx, Git, nginx.
+    Ключевые слова: Ruby on Rails, MySQL, Haml, Sass, jQuery, Sphinx,
+    Git, nginx.
 
 ### [ООО "Джон студия"](http://john.ru)
 
