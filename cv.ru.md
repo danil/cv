@@ -25,7 +25,7 @@
     Программирование на Ruby и JavaScript.
 
     Ключевые слова: Ruby on Rails, MySQL, Haml, Sass, jQuery, Sphinx,
-    Git, nginx.
+    nginx, Git.
 
 ### [ООО "Джон студия"][]
 
@@ -34,8 +34,8 @@
 *   [Хоккейный клуб СКА][]:  
     Программирование на Ruby, JavaScript и конфигурирование сервера.
 
-    Ключевые слова: Ruby on Rails, Subversion, jQuery, VPS, Debian,
-    PostgreSQL, nginx, Mongrel, Bash script.
+    Ключевые слова: Ruby on Rails, PostgreSQL, jQuery, VPS, Debian,
+    Bash script, nginx, Subversion.
 
 *   [Такси-бетон][] и [Mobotix AG в России][]:  
     Программирование на PHP, Bash script и вёрстка.
@@ -55,7 +55,7 @@
     Программирование на ColdFusion, JavaScript, вёрстка и
     конфигурирование веб-сервера.
 
-    Ключевые слова: MySQL, CSS, CVS, Apache.
+    Ключевые слова: MySQL, CSS, Apache, CVS.
 
 *   tune management & training:  
     Программирование на ASP и вёрстка.
