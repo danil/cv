@@ -153,6 +153,4 @@
 [Хоккейный клуб СКА]: http://hc-ska.ru
 [ул. Передовиков, д. 25]: http://maps.google.com/maps?f=q&hl=en&geocode=&q=Russia,+Sankt-Peterburg,+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%9F%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2+25&sll=59.944404,30.46278&sspn=0.024718,0.058365&ie=UTF8&z=15&iwloc=addr&om=1
 
-[My cv in the english language](/en/cv).
-
 <!-- Created: 23 Aug 2007. -->
