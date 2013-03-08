@@ -7,13 +7,12 @@ Danil Kutkevich
 ===============
 
 Was born on January, 30th, 1980.  
-E-mail: [danil(mail.box.at)kutkevich.org][email]  
+E-mail: [danil@kutkevich.org](mailto:danil@kutkevich.org)  
 Jabber/XMPP: [danilkutkevich@jabber.org](xmpp:danilkutkevich@jabber.org)  
 Address: [25 Peredovikov st.][], apt. 24, Saint Petersburg, Russia, 195279  
 Phone: [+7-812-529-7760](tel:+7-812-529-7760)
 
 [25 Peredovikov st.]: http://maps.google.com/maps?f=q&hl=en&geocode=&q=25+Peredovikov+st.,+Saint+Petersburg,+Russia&sll=59.944404,30.46278&sspn=0.035508,0.084543&ie=UTF8&z=14&iwloc=cent&om=1
-[email]: danil(mail.box.at)kutkevich.org
 
 Employment History
 ------------------

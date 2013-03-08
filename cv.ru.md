@@ -7,7 +7,7 @@
 ==============
 
 30 января 1980 года рождения.  
-Электронная почта: [danil(почтовый.ящик.на)kutkevich.org][email]  
+Электронная почта: [danil@kutkevich.org][]  
 Джаббер/XMPP: [danilkutkevich@jabber.org][]  
 Адрес: 195279, Россия, Санкт-Петербург, [ул. Передовиков, д. 25][], кв. 24  
 Телефон: [+7-812-529-7760][]
@@ -140,7 +140,7 @@
 [+7-812-529-7760]: tel:+7-812-529-7760
 [Mobotix AG в России]: http://mobotix-russia.ru
 [danilkutkevich@jabber.org]: xmpp:danilkutkevich@jabber.org
-[email]: danil(почтовый.ящик.на)kutkevich.org
+[danil@kutkevich.org]: mailto:danil@kutkevich.org
 [hotelguide.com]: http://hotelguide.com
 [sut]: http://sut.ru
 [Биржа независимых специалистов PROhq]: http://prohq.ru
