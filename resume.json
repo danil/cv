@@ -1,0 +1,123 @@
+{
+  "basics": {
+    "name": "Danil Kutkevich",
+    "label": "Programmer",
+    "picture": "https://gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?s=300",
+    "email": "danil@kutkevich.org",
+    "phone": "+7-921-338-0130",
+    "website": "http://danil.kutkevich.org",
+    "summary": "I work as the web programmer since 2003 on the present (2015)",
+    "location": {
+      "address": "25 Peredovikov st., apt. 24",
+      "postalCode": "195279",
+      "city": "Saint Petersburg",
+      "countryCode": "Russia",
+      "region": "Saint Petersburg"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "WaveAccess",
+      "position": "",
+      "website": "http://wave-access.com",
+      "startDate": "2013-06-01",
+      "endDate": "9999-01-01",
+      "summary": "Health information technology",
+      "highlights": []
+    },
+    {
+      "company": "Molinos",
+      "position": "",
+      "website": "http://molinos.ru",
+      "startDate": "2012-05-01",
+      "endDate": "2013-06-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Avers",
+      "position": "",
+      "website": "http://prohq.ru",
+      "startDate": "2010-09-01",
+      "endDate": "2012-05-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "John studio",
+      "position": "",
+      "website": "",
+      "startDate": "2008-03-01",
+      "endDate": "2010-09-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Darout",
+      "position": "",
+      "website": "http://darout.ru",
+      "startDate": "2004-11-01",
+      "endDate": "2008-03-01",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "St.-Petersburg University of Telecommunications of a name of professor M. A. Bonch-Bruevich",
+      "area": "Information Technology",
+      "studyType": "3rd year",
+      "startDate": "1997-09-01",
+      "endDate": "2010-06-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "Ruby on Rails",
+        "Javascript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "RDBMS",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "*nix",
+      "level": "Master",
+      "keywords": [
+        "Bash script"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Low Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
