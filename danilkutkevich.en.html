@@ -48,30 +48,30 @@
        white-space: nowrap;
      }
 
-     @media (min-width: 600px) {
-       .link-muted, .link-muted:hover {
-         color: #333;
-         text-decoration: none;
-       }
+     /* @media (min-width: 600px) {
+        .link-muted, .link-muted:hover {
+        color: #333;
+        text-decoration: none;
+        }
 
-       .link-muted1, .link-muted1:link, .link-muted1:visited, .link-muted1:hover, .link-muted1:active,
-       .link-muted2, .link-muted2:link, .link-muted2:visited, .link-muted2:hover, .link-muted2:active,
-       .link-muted3, .link-muted3:link, .link-muted3:visited, .link-muted3:hover, .link-muted3:active,
-       .link-muted4, .link-muted4:link, .link-muted4:visited, .link-muted4:hover, .link-muted4:active
-       {text-decoration: none;}
+        .link-muted1, .link-muted1:link, .link-muted1:visited, .link-muted1:hover, .link-muted1:active,
+        .link-muted2, .link-muted2:link, .link-muted2:visited, .link-muted2:hover, .link-muted2:active,
+        .link-muted3, .link-muted3:link, .link-muted3:visited, .link-muted3:hover, .link-muted3:active,
+        .link-muted4, .link-muted4:link, .link-muted4:visited, .link-muted4:hover, .link-muted4:active
+        {text-decoration: none;}
 
-       .link-muted1, .link-muted1:link, .link-muted1:visited, .link-muted1:hover, .link-muted1:active
-       {color: #777;}
+        .link-muted1, .link-muted1:link, .link-muted1:visited, .link-muted1:hover, .link-muted1:active
+        {color: #777;}
 
-       .link-muted2, .link-muted2:link, .link-muted2:visited, .link-muted2:hover, .link-muted2:active
-       {color: #666;}
+        .link-muted2, .link-muted2:link, .link-muted2:visited, .link-muted2:hover, .link-muted2:active
+        {color: #666;}
 
-       .link-muted3, .link-muted3:link, .link-muted3:visited, .link-muted3:hover, .link-muted3:active
-       {color: #555;}
+        .link-muted3, .link-muted3:link, .link-muted3:visited, .link-muted3:hover, .link-muted3:active
+        {color: #555;}
 
-       .link-muted4, .link-muted4:link, .link-muted4:visited, .link-muted4:hover, .link-muted4:active
-       {color: #444;}
-     }
+        .link-muted4, .link-muted4:link, .link-muted4:visited, .link-muted4:hover, .link-muted4:active
+        {color: #444;}
+        } */
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -115,8 +115,8 @@
         <div class="col-md-3">
           Phone
           <big>
-            <a class="text-nowrap link-muted"
-               href="tel:+79213380130">+7 921 338 0130</a>
+            <a href="tel:+79213380130"
+               class="text-nowrap link-muted">+7 921 338 0130</a>
           </big>
         </div>
       </div>
@@ -144,10 +144,10 @@
 
         <div class="col-md-9">
           <h3>
-            <a class="link-muted3"
-               href="http://health-samurai.io">Health samurai</a><small>,</small>
-            <a class="link-muted3"
-               href="http://www.wave-access.com">Waveaccess</a>
+            <a href="http://health-samurai.io"
+               class="link-muted3">Health samurai</a><small>,</small>
+            <a href="http://wave-access.com"
+               class="link-muted3">Waveaccess</a>
 
             <small class="text-nowrap">2013-2016</small>
           </h3>
@@ -157,9 +157,16 @@
               <h4>Medclient EHR</h4>
 
               <p>
-                Medclient EHR project I participated as a
-                <span class="text-nowrap">back-end</span> and as a
-                <span class="text-nowrap">front-end</span> developer.
+                Medclient EHR is an electronic health record system
+                which was operated in three California hospitals.
+              </p>
+
+              <p>
+                I participated as a
+                <span class="text-nowrap">back-end</span>
+                and
+                <span class="text-nowrap">front-end</span>
+                developer.
               </p>
 
               <p>
@@ -170,22 +177,17 @@
             </div>
 
             <div class="col-md-4">
-              <h4><a class="link-muted4"
-                     href="https://www.holiadvice.com/en">Holiadvice</a></h4>
+              <h4><a href="https://www.holiadvice.com/en"
+                     class="link-muted4">Holiadvice</a></h4>
 
               <p>
-                Holiadvice project I participated as a
-                <span class="text-nowrap">back-end</span> and as a
-                <span class="text-nowrap">front-end</span> developer.
+                Holiadvice is an telemedicine platform for
+                holistic (alternative) medicine.
               </p>
 
               <p>
-                Holiadvice is an telemedicine platform based on WebRTC.
-              </p>
-
-              <p>
-                Billing module between the patient and the
-                practitioner realized through Paypal.
+                I has developed a telemedicine platform using WebRTC.
+                And payment system using Paypal.
               </p>
 
               <p>
@@ -193,6 +195,7 @@
                 <span class="label label-buzzword">PostgreSQL</span>
                 <span class="label label-buzzword">WebRTC</span>
                 <span class="label label-buzzword">Heroku</span>
+                <span class="label label-buzzword">AngularJS</span>
               </p>
             </div>
 
@@ -200,9 +203,17 @@
               <h4>Salemed</h4>
 
               <p>
-                Salemed project I participated as a
-                <span class="text-nowrap">back-end</span> and as a
-                <span class="text-nowrap">front-end</span> developer.
+                Salemed is an electronic marketplace for MRI centers
+                (magnetic resonance imaging) and insurance companies
+                in Saint Petersburg.
+              </p>
+
+              <p>
+                I participated as a
+                <span class="text-nowrap">back-end</span>
+                and
+                <span class="text-nowrap">front-end</span>
+                developer.
               </p>
 
               <p>
@@ -215,14 +226,31 @@
 
           <div class="row">
             <div class="col-md-4">
-              <h4><a class="link-muted4"
-                     href="https://github.com/fhirbase/fhirbase-plv8">Fhirbase</a></h4>
+              <h4><a href="https://fhirbase.github.io"
+                     class="link-muted4">Fhirbase</a></h4>
+
+              <p>
+                Fhirbase is a
+                <a href="https://github.com/fhirbase/fhirbase-plv8"
+                   class="link-muted">open source</a>
+                relational storage for the
+                FHIR (fast healthcare interoperability resources) standard
+                based on PostgreSQL.
+              </p>
+
+              <p>
+                I has developed the
+                <a href="https://fhirbase.github.io/docs.html#fhirbase-performance"
+                   class="link-muted">performance testing</a>
+                system.
+              </p>
 
               <p>
                 <span class="label label-buzzword">PostgreSQL</span>
                 <span class="label label-buzzword">CoffeeScript</span>
                 <span class="label label-buzzword">Bash script</span>
                 <span class="label label-buzzword">Ansible</span>
+                <span class="label label-buzzword">AWS</span>
               </p>
             </div>
           </div>
@@ -232,21 +260,16 @@
       <div class="row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
-            <a class="link-muted3"
-               href="http://molinos.ru/en">Molinos</a>
+            <a href="http://molinos.ru/en"
+               class="link-muted3">Molinos</a>
 
             <small class="text-nowrap">2012-2013</small>
           </h3>
 
           <div class="row">
             <div class="col-md-4">
-              <h4><a class="link-muted4"
-                     href="http://www.nevareaktiv.ru">nevareaktiv.ru</a></h4>
-
-              <p>
-                nevareaktiv.ru project I participated as a
-                <span class="text-nowrap">back-end</span> developer.
-              </p>
+              <h4><a href="http://nevareaktiv.ru"
+                     class="link-muted4">nevareaktiv.ru</a></h4>
 
               <p>
                 <span class="label label-buzzword">Ruby on Rails</span>
@@ -257,13 +280,8 @@
             </div>
 
             <div class="col-md-4">
-              <h4><a class="link-muted4"
-                     href="http://omorfia.ru">Omorfia</a></h4>
-
-              <p>
-                Omorfia project I participated as a
-                <span class="text-nowrap">back-end</span> developer.
-              </p>
+              <h4><a href="http://omorfia.ru"
+                     class="link-muted4">Omorfia</a></h4>
 
               <p>
                 <span class="label label-buzzword">Ruby on Rails</span>
@@ -285,12 +303,6 @@
           <div class="row">
             <div class="col-md-4">
               <h4>prohq.ru</h4>
-
-              <p>
-                prohq.ru project I participated as a
-                <span class="text-nowrap">back-end</span> and as a
-                <span class="text-nowrap">front-end</span> developer.
-              </p>
 
               <p>
                 <span class="label label-buzzword">Ruby on Rails</span>
@@ -319,12 +331,6 @@
               <h4>SKA Ice Hockey Club</h4>
 
               <p>
-                HC SKA project I participated as a
-                <span class="text-nowrap">back-end</span> and as a
-                <span class="text-nowrap">front-end</span> developer.
-              </p>
-
-              <p>
                 <span class="label label-buzzword">Ruby on Rails</span>
                 <span class="label label-buzzword">PostgreSQL</span>
                 <span class="label label-buzzword">Nginx</span>
@@ -348,10 +354,6 @@
           <div class="row">
             <div class="col-md-4">
               <h4>Hotelguide.com</h4>
-
-              <p>
-                Hotelguide.com project I participated as a <span class="text-nowrap">front-end</span> developer.
-              </p>
 
               <p>
                 <span class="label label-buzzword">ColdFusion</span>
@@ -409,7 +411,7 @@
 
         <div class="col-md-9">
           <h3>
-            <a class="link-muted3" href="https://sut.ru/eng"><span
+            <a href="https://sut.ru/eng" class="link-muted3"><span
                class="text-nowrap">St.-Petersburg</span> University of
                Telecommunications of a name of professor
                M. A. <span class="text-nowrap">Bonch-Bruevich</span></a>
