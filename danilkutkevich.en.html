@@ -48,7 +48,21 @@
        white-space: nowrap;
      }
 
-     /* @media (min-width: 600px) {
+     .avatar-container {
+       height: 170px;
+       margin-top: 20px;
+     }
+     .avatar-container img {height: 100%;}
+
+     @media (max-width: 992px) {
+       .avatar-container {
+         height: 270px;
+         margin-right: 10px;
+         margin-top: 30px;
+       }
+     }
+
+     /* @media (min-width: 992px) {
         .link-muted, .link-muted:hover {
         color: #333;
         text-decoration: none;
@@ -85,7 +99,15 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-9 col-md-offset-3">
+        <div class="col-md-3">
+          <div class="avatar-container">
+            <img src="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=440"
+                 class="img-responsive img-circle center-block"
+                 alt="Danil Kutkevich photo">
+          </div>
+        </div>
+
+        <div class="col-md-9">
           <div class="page-header">
             <h1>
               Danil Kutkevich
@@ -93,49 +115,48 @@
                 and <span class="text-nowrap">Go developer</span></small>
             </h1>
           </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <span class="text-nowrap">E-mail</span>&nbsp;
+              <big>
+                <a href="mailto:danil@kutkevich.org">danil@kutkevich.org</a>
+              </big>
+            </div>
+
+            <div class="col-md-4">
+              Location
+              <big><span class="text-nowrap">Saint Petersburg</span>, Russia</big>
+            </div>
+
+            <div class="col-md-4">
+              Phone
+              <big>
+                <a href="tel:+79213380130"
+                   class="text-nowrap link-muted">+7 921 338 0130</a>
+              </big>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+            <div class="col-md-4">
+              Github<small class="text-muted">/</small><big><a href="https://github.com/danil">danil</a></big>
+            </div>
+
+            <div class="col-md-4">
+              Facebook<small class="text-muted">/</small><big><a href="https://www.facebook.com/danil.kutkevich">danil.kutkevich</a></big>
+            </div>
+
+            <!-- <div class="col-md-4">
+                 VK<small class="text-muted">/</small><big><a href="https://vk.com/danilkutkevich">danilkutkevich</a></big>
+                 </div> -->
+          </div>
         </div>
       </div>
 
       <!-- <p>Birthday January, 30th, 1980</p> -->
-
-
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          <span class="text-nowrap">E-mail</span>&nbsp;
-          <big>
-            <a href="mailto:danil@kutkevich.org">danil@kutkevich.org</a>
-          </big>
-        </div>
-
-        <div class="col-md-3">
-          Location
-          <big><span class="text-nowrap">Saint Petersburg</span>, Russia</big>
-        </div>
-
-        <div class="col-md-3">
-          Phone
-          <big>
-            <a href="tel:+79213380130"
-               class="text-nowrap link-muted">+7 921 338 0130</a>
-          </big>
-        </div>
-      </div>
-
-      <br>
-
-      <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-          Github<small class="text-muted">/</small><big><a href="https://github.com/danil">danil</a></big>
-        </div>
-
-        <div class="col-md-3">
-          Facebook<small class="text-muted">/</small><big><a href="https://www.facebook.com/danil.kutkevich">danil.kutkevich</a></big>
-        </div>
-
-        <!-- <div class="col-md-3">
-             VK<small class="text-muted">/</small><big><a href="https://vk.com/danilkutkevich">danilkutkevich</a></big>
-             </div> -->
-      </div>
 
       <div class="row">
         <div class="col-md-3">
@@ -411,9 +432,9 @@
         <div class="col-md-9">
           <h3>
             <a href="https://sut.ru/eng" class="link-muted3"><span
-               class="text-nowrap">St.-Petersburg</span> University of
-               Telecommunications of a name of professor
-               M. A. <span class="text-nowrap">Bonch-Bruevich</span></a>
+                                                                 class="text-nowrap">St.-Petersburg</span> University of
+              Telecommunications of a name of professor
+              M. A. <span class="text-nowrap">Bonch-Bruevich</span></a>
 
             <small class="text-nowrap">1997-2010</small>
           </h3>
