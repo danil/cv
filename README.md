@@ -1,7 +1,8 @@
 Danil Kutkevich CV
 ==================
 
-Curriculum vitae <http://danil.kutkevich.org>
+My curriculum vitae available in english <http://danil.kutkevich.org>
+and in russian (русский язык) <http://danil.kutkevich.org/ru>.
 
 Copyright (C) 2016 Danil Kutkevich <danil@kutkevich.org>
 
