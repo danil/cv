@@ -1,2 +1,3 @@
-* Remove VPS "skill" from ru version and check en maybe to.
-* Add Linux skill to early vacancy. May be lmsic.
+# TODO
+
+* add 404 `~/src/js/homepage/app/jade/404.jade`
