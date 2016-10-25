@@ -74,6 +74,11 @@
        .project.card {min-height: 260px;}
      }
 
+     @media (min-width: 1200px) {
+       .contact.card {min-height: 66px;}
+       .contact.social.card {min-height: 0;}
+     }
+
      @media print {
        abbr[title] {border-bottom: 0 none transparent;}
        .avatar-container > img {height: 200px;}
@@ -115,8 +120,8 @@
           </div>
         </div>
 
-        <div class="col-sm-9 col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-pull-3 col-md-pull-3 col-lg-pull-3">
-          <div class="page-header">
+        <div class="col-sm-9 col-md-6 col-lg-9 col-md-offset-3 col-lg-offset-0 col-sm-pull-3 col-md-pull-3 col-lg-pull-3">
+          <div class="page-header col-lg-7 col-lg-offset-3">
             <h1>
               Danil Kutkevich
               <small><span class="text-nowrap">Go programmer</span></small>
@@ -124,49 +129,43 @@
           </div>
 
           <div id="contacts" class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="contact card col-sm-6 col-md-6 col-lg-3">
               <span class="text-nowrap">E-mail</span>&nbsp;
               <big>
                 <a href="mailto:danil@kutkevich.org">danil@kutkevich.org</a>
               </big>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="contact card col-sm-6 col-md-6 col-lg-3">
               Location
               <big><span class="text-nowrap">Saint Petersburg</span>,
                 Russia</big>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="contact card col-sm-6 col-md-6 col-lg-3">
               Phone
               <big>
                 <a href="tel:+79213380130"
                    class="text-nowrap link-muted">+7 921 338 0130</a>
               </big>
             </div>
-          </div>
 
-          <br>
-
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="contact card col-sm-6 col-md-6 col-lg-3">
               Github<small class="text-muted">/</small><big><a href="https://github.com/danil">danil</a></big>
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="contact social card col-sm-6 col-md-6 col-lg-3 col-lg-offset-6">
               Facebook<small class="text-muted">/</small><big><a href="https://www.facebook.com/danil.kutkevich">danil.kutkevich</a></big>
             </div>
 
             <!--
-            <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="contact social card col-sm-6 col-md-6 col-lg-3 col-lg-offset-6">
               В Контакте<small class="text-muted">/</small><big><a href="https://vk.com/danilkutkevich">danilkutkevich</a></big>
             </div>
             -->
           </div>
 
           <!-- <p>Birthday January, 30th, 1980</p> -->
-
-          <br>
 
           <div id="about" class="row">
             <div class="col-md-12 col-lg-12">
