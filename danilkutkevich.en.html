@@ -7,9 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any
          other head content must come *after* these tags -->
 
-    <title>Danil Kutkevich — Junior Go programmer</title>
+    <title>Danil Kutkevich — Go programmer</title>
     <meta name="description"
-          content="Danil Kutkevich — Junior Go programmer">
+          content="Danil Kutkevich — Go programmer">
 
     <link href="https://login.launchpad.net/+openid" rel="openid.server">
     <link href="https://login.launchpad.net/+id/ACFMYrr" rel="openid.delegate">
@@ -50,11 +50,23 @@
 
      .avatar-container {margin-top: 20px;}
 
-     @media (max-width: 992px) {
+     #about.row {margin-top: 20px;}
+
+     .employer.row, #education {margin-top: 20px;}
+     .employer.row > * > h3 {margin-bottom: 0;}
+     .project.card {margin-top: 30px;}
+
+     @media (min-width: 768px) {
+       #holiadvice, #medapp, #salemed {min-height: 180px;}
+     }
+
+     @media (min-width: 992px) {
        .avatar-container {
-         margin-right: 7px;
-         margin-top: 30px;
+         margin-right: 40px;
+         margin-top: 70px;
        }
+
+       #holiadvice, #medapp, #salemed {min-height: 260px;}
      }
 
      @media print {
@@ -102,7 +114,7 @@
           <div class="page-header">
             <h1>
               Danil Kutkevich
-              <small><span class="text-nowrap">Junior Go programmer</span></small>
+              <small><span class="text-nowrap">Go programmer</span></small>
             </h1>
           </div>
 
@@ -154,17 +166,10 @@
           <div id="about" class="row">
             <div class="col-md-12">
               <p>
-                I learn the Go programming language.
-                Checkout on Github my
-                <a href="https://github.com/danil/ptichka">Twitter fetcher</a>
-                written on Go.
-              </p>
-
-              <p>
                 I love Free software
                 and compiled programming languages such as Golang and C.
                 <br>
-                Also I love Ruby, Emacs and Gentoo Linux.
+                Also I love Ruby, Emacs and Gentoo Linux
               </p>
 
               <p>
@@ -177,7 +182,7 @@
                 and
                 several Gentoo
                 <span class="text-nowrap">
-                  <a href="https://github.com/danil/overlays">ebuilds</a>.
+                  <a href="https://github.com/danil/overlays">ebuilds</a>
                 </span>
               </p>
             </div>
@@ -185,36 +190,36 @@
         </div>
       </div>
 
-      <div id="waveaccess" class="row">
+      <div id="waveaccess" class="employer row">
         <div class="col-md-3">
-          <h2>Employment history</h2>
+          <h2>Experience</h2>
         </div>
 
         <div class="col-md-9">
           <h3>
-            <a href="http://health-samurai.io"
-               class="link-muted3">Health samurai</a><small>,</small>
             <a href="http://wave-access.com"
                class="link-muted3">Waveaccess</a>
 
-            <small title="06.2013-08.2016"
-                   class="text-nowrap">2013-2016</small>
+            <small title="06.2013 — 08.2016"
+                   class="text-nowrap">2013 — 2016</small>
           </h3>
 
           <div class="row">
-            <div id="medapp" class="col-sm-6 col-md-4">
-              <h4>Medclient
-                <abbr title="Electronic health record">EHR</abbr></h4>
+            <div id="medapp" class="project card col-sm-6 col-md-4">
+              <h4>
+                Medclient
+                <abbr title="Electronic health record">EHR</abbr>
 
-              <p>
-                Electronic health record.
-              </p>
+                <small>
+                  — electronic health record
+                </small>
+              </h4>
 
               <p>
                 Developed a system of information exchange
                 between hospitals for certification by
                 <abbr title="Meaningful Use Electronic Health Record">UNC
-                  program</abbr>.
+                  program</abbr>
               </p>
 
               <p>
@@ -223,18 +228,17 @@
               </p>
             </div>
 
-            <div id="holiadvice" class="col-sm-6 col-md-4">
-              <h4><a href="https://www.holiadvice.com/en"
-                     class="link-muted4">holiadvice.com</a></h4>
+            <div id="holiadvice" class="project card col-sm-6 col-md-4">
+              <h4>
+                <a href="https://www.holiadvice.com/en"
+                   class="link-muted4">Holiadvice</a>
 
-              <p>
-                Telemedicine platform for
-                <abbr title="alternative">holistic</abbr> medicine.
-              </p>
+                <small>— telemedicine</smallp>
+              </h4>
 
               <p>
                 Developed platform using WebRTC
-                and payment system using Paypal.
+                and payment system using Paypal
               </p>
 
               <p>
@@ -246,19 +250,20 @@
               </p>
             </div>
 
-            <div id="salemed" class="col-sm-6 col-md-4">
-              <h4>Salemed</h4>
+            <div id="salemed" class="project card col-sm-6 col-md-4">
+              <h4>
+                Salemed
 
-              <p>
-                Electronic marketplace for
-                <abbr title="Magnetic resonance imaging">MRI</abbr> centers
-                and insurance companies in Saint Petersburg.
-              </p>
+                <small>
+                  — electronic marketplace for
+                  <abbr title="Magnetic resonance imaging">MRI</abbr>
+                </small>
+              </h4>
 
               <p>
                 Developed a system for entering offers from MRI
                 centers and notification system for insurance companies
-                of the offer was created.
+                of the offer was created
               </p>
 
               <p>
@@ -268,24 +273,29 @@
               </p>
             </div>
 
-            <div id="fhirbase" class="col-sm-6 col-md-4">
-              <h4><a href="https://fhirbase.github.io"
-                     class="link-muted4">Fhirbase</a></h4>
+            <div id="fhirbase" class="project card col-sm-6 col-md-4">
+              <h4>
+                <a href="https://fhirbase.github.io"
+                   class="link-muted4">Fhirbase</a>
 
-              <p>
-                <a href="https://github.com/fhirbase/fhirbase-plv8"
-                   class="link-muted">Open source</a>
-                data storage for the
-                <abbr title="Fast healthcare interoperability resources">FHIR</abbr>
-                standard based on PostgreSQL.
-              </p>
+                <small>
+                  — <a href="https://github.com/fhirbase/fhirbase-plv8"
+                     class="link-muted text-nowrap">open source</a>
+                  data storage for the
+                  <abbr title="Fast healthcare interoperability resources">FHIR</abbr>
+                  standard based on
+                  <span class="text-nowrap">PostgreSQL and V8</span>
+                </small>
+              </h4>
 
               <p>
                 Developed the
                 <a href="https://fhirbase.github.io/docs.html#fhirbase-performance"
                    class="link-muted">performance testing</a>
-                which automatically runs from Travis CI on EC2 after
-                creating Git tag.
+                which automatically runs from
+                <span class="text-nowrap">Travis CI</span> on
+                <span class="text-nowrap">AWS EC2</span> after
+                creating Git tag
               </p>
 
               <p>
@@ -300,29 +310,31 @@
         </div>
       </div>
 
-      <div id="molinos" class="row">
+      <div id="molinos" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             <a href="http://molinos.ru/en"
                class="link-muted3">Molinos</a>
 
-            <small title="04.2012-06.2013"
-                   class="text-nowrap">2012-2013</small>
+            <small title="04.2012 — 06.2013"
+                   class="text-nowrap">2012 — 2013</small>
           </h3>
 
           <div class="row">
-            <div id="neva" class="col-sm-6 col-md-4">
-              <h4><a href="http://nevareaktiv.ru"
-                     class="link-muted4">nevareaktiv.ru</a></h4>
+            <div id="neva" class="project card col-sm-6 col-md-4">
+              <h4>
+                <a href="http://nevareaktiv.ru"
+                   class="link-muted4">Nevareaktiv</a>
 
-              <p>
-                Supplier of chemicals.
-              </p>
+                <small>
+                  — supplier of chemicals
+                </small>
+              </h4>
 
               <p>
                 Developed a full text search by chemicals catalog
                 and system of automatic application restart in cases of
-                fatal error or a server reboot.
+                fatal error or a server reboot
               </p>
 
               <p>
@@ -337,16 +349,18 @@
             </div>
 
             <div class="col-sm-6 col-md-4">
-              <h4><a href="http://omorfia.ru"
-                     class="link-muted4">omorfia.ru</a></h4>
+              <h4>
+                <a href="http://omorfia.ru"
+                   class="link-muted4">Omorfia</a>
+
+                <small>
+                  — ongoing contest, where the prize is a free of charge
+                  carrying out of plastic surgery
+                </small>
+              </h4>
 
               <p>
-                Ongoing contest, where the prize is a free of charge
-                carrying out of plastic surgery.
-              </p>
-
-              <p>
-                Developed a collaborative blog.
+                Developed a collaborative blog
               </p>
 
               <p>
@@ -359,29 +373,25 @@
         </div>
       </div>
 
-      <div id="avers" class="row">
+      <div id="avers" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             Avers
 
-            <small title="09.2010-04.2012"
-                   class="text-nowrap">2010-2012</small>
+            <small title="09.2010 — 04.2012"
+                   class="text-nowrap">2010 — 2012</small>
           </h3>
 
           <div class="row">
-            <div id="prohq" class="col-sm-6 col-md-4">
-              <h4>prohq.ru</h4>
-
-              <p>
-                Freelancing platform.
-              </p>
+            <div id="prohq" class="project card col-sm-6 col-md-4">
+              <h4>prohq.ru <small>— freelancing platform</small></h4>
 
               <p>
                 Developed a system that calculates taxes,
                 finds the address of the tax service in
                 <abbr title="Russian qualifier addresses">KLADR</abbr>
                 and generates the tax declaration in PDF format ready
-                for mailing.
+                for mailing
               </p>
 
               <p>
@@ -398,26 +408,22 @@
         </div>
       </div>
 
-      <div id="john" class="row">
+      <div id="john" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             John studio
 
-            <small title="03.2008-09.2010"
-                   class="text-nowrap">2008-2010</small>
+            <small title="03.2008 — 09.2010"
+                   class="text-nowrap">2008 — 2010</small>
           </h3>
 
           <div class="row">
-            <div id="ska" class="col-sm-6 col-md-4">
-              <h4>ska.ru</h4>
-
-              <p>
-                Is an SKA Ice Hockey Club site.
-              </p>
+            <div id="ska" class="project card col-sm-6 col-md-4">
+              <h4>ska.ru <small>— is an SKA Ice Hockey Club site</small></h4>
 
               <p>
                 Developed uploading of the photo attachments
-                using Paperclip gem.
+                using <span class="text-nowrap">Paperclip gem</span>
               </p>
 
               <p>
@@ -433,26 +439,22 @@
         </div>
       </div>
 
-      <div id="darout" class="row">
+      <div id="darout" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             Darout Service
 
-            <small title="11.2004-03.2008"
-                   class="text-nowrap">2004-2008</small>
+            <small title="11.2004 — 03.2008"
+                   class="text-nowrap">2004 — 2008</small>
           </h3>
 
           <div class="row">
-            <div id="hotelguide" class="col-sm-6 col-md-4">
-              <h4>hotelguide.com</h4>
-
-              <p>
-                Hotel booking site.
-              </p>
+            <div id="hotelguide" class="project card col-sm-6 col-md-4">
+              <h4>hotelguide.com <small>— hotel booking site</small></h4>
 
               <p>
                 I was rewriting old version of the site
-                from ColdFusion to JavaServer Faces.
+                from ColdFusion to JavaServer Faces
               </p>
 
               <p>
@@ -467,21 +469,21 @@
         </div>
       </div>
 
-      <div id="lms" class="row">
+      <div id="lms" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             Investment Company Lenmontazhstroy (LMS)
 
-            <small title="06.2003-11.2004"
-                   class="text-nowrap">2003-2004</small>
+            <small title="06.2003 — 11.2004"
+                   class="text-nowrap">2003 — 2004</small>
           </h3>
 
           <div class="row">
-            <div id="lms" class="col-sm-6 col-md-4">
-              <h4>LMS</h4>
+            <div id="lms" class="project card col-sm-6 col-md-4">
+              <h4>LMS <small>— corporate site</small></h4>
 
               <p>
-                LMS corporate site be my first project.
+                My first project
               </p>
 
               <p>
@@ -496,13 +498,13 @@
       </div>
 
       <!--
-      <div id="army" class="row">
+      <div id="army" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             The Russian Armed Forces
 
-            <small title="06.2001-05.2003"
-                   class="text-nowrap">2001-2003</small>
+            <small title="06.2001 — 05.2003"
+                   class="text-nowrap">2001 — 2003</small>
           </h3>
 
           <p>
@@ -513,13 +515,13 @@
       -->
 
       <!--
-      <div id="agat" class="row">
+      <div id="agat" class="employer row">
         <div class="col-md-9 col-md-offset-3">
           <h3>
             Agat
 
-            <small title="09.1999-05.2001"
-                   class="text-nowrap">1999-2001</small>
+            <small title="09.1999 — 05.2001"
+                   class="text-nowrap">1999 — 2001</small>
           </h3>
 
           <p>
@@ -542,7 +544,7 @@
               <span class="text-nowrap">Saint-Petersburg</span>
               State University of Telecommunications</a>
 
-            <small class="text-nowrap">1997-2010</small>
+            <small class="text-nowrap">1997 — 2010</small>
           </h3>
 
           <p>
