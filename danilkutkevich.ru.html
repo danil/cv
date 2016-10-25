@@ -49,18 +49,24 @@
      }
 
      .avatar-container {margin-top: 20px;}
-     .employer, .education {margin-top: 20px;}
 
+     #about.row {margin-top: 20px;}
 
-     @media (min-width: 750px) {
-       #holiadvice, #medapp, #salemed {min-height: 160px;}
+     .employer.row, .education.row {margin-top: 20px;}
+     .employer.row > * > h3 {margin-bottom: 0;}
+     .project.card {margin-top: 30px;}
+
+     @media (min-width: 768px) {
+       #holiadvice, #medapp, #salemed {min-height: 180px;}
      }
 
-     @media (max-width: 992px) {
+     @media (min-width: 992px) {
        .avatar-container {
-         margin-right: 7px;
-         margin-top: 30px;
+         margin-right: 40px;
+         margin-top: 70px;
        }
+
+       #holiadvice, #medapp, #salemed {min-height: 260px;}
      }
 
      @media print {
@@ -160,23 +166,22 @@
           <div id="about" class="row">
             <div class="col-md-12">
               <p>
-                Люблю свободное программное обеспечение
-                и компилируемые языки, например Golang и C
+                Люблю свободное ПО
+                и компилируемые языки, например Golang и C.
                 <br>
-                Также люблю Ruby, Emacs и Gentoo Linux
+                Также люблю Ruby, Emacs, Gentoo Linux
               </p>
 
               <p>
                 Написал на Emacs-лиспе
                 <span class="text-nowrap">
                   <a href="https://github.com/danil/ido-describe-bindings">несколько</a>
-                  <a href="https://github.com/danil/ido-occur">модов</a>,
+                  <a href="https://github.com/danil/ido-occur">модов</a>.
                 </span>
-                и несколько
+                Написал для Gentoo несколько
                 <span class="text-nowrap">
                   <a href="https://github.com/danil/overlays">пакетов</a>
                 </span>
-                для Gentoo
               </p>
             </div>
           </div>
@@ -193,24 +198,23 @@
             <a href="http://waveaccess.ru"
                class="link-muted3">Waveaccess</a>
 
-            <small title="06.2013-08.2016"
-                   class="text-nowrap">2013-2016</small>
+            <small title="06.2013 — 08.2016"
+                   class="text-nowrap">2013 — 2016</small>
           </h3>
 
           <div class="row">
-            <div id="medapp" class="col-sm-6 col-md-4">
+            <div id="medapp" class="project card col-sm-6 col-md-4">
               <h4>
                 <a href="http://choice-hs.com">Электронная медкарта</a>
 
                 <small>
-                  — система документооборота для медицинских учереждений
+                  — документооборот для медицинских учереждений
                 </small>
               </h4>
 
               <p>
-                Разработал систему обмена информацией между больницами для
-                <abbr title="Американская программа сертификации для госпиталей">UNC</abbr>
-                сертификации
+                Это приложение выделяется своей сложностью и размером:
+                более 50-ти моделей
               </p>
 
               <p>
@@ -219,7 +223,7 @@
               </p>
             </div>
 
-            <div id="holiadvice" class="col-sm-6 col-md-4">
+            <div id="holiadvice" class="project card col-sm-6 col-md-4">
               <h4>
                 <a href="https://www.holiadvice.com/en"
                      class="link-muted4">Holiadvice</a>
@@ -229,8 +233,15 @@
               </h4>
 
               <p>
-                Разработал видеоконференцию на основе WebRTC
-                и приём платежей через Paypal
+                Серверную часть сделал в одиночку.
+                <br>
+                Например, приём платежей через Paypal, а также
+                <span class="text-nowrap">WebRTC-видеоконференцию</span>
+                с использованием плагинов для Heroku: сигнального сервера;
+                <abbr title="Session Traversal Utilities for NAT">STUN</abbr>
+                сервера;
+                <abbr title="Traversal Using Relays around NAT">TURN</abbr>
+                сервера
               </p>
 
               <p>
@@ -242,18 +253,17 @@
               </p>
             </div>
 
-            <div id="salemed" class="col-sm-6 col-md-4">
+            <div id="salemed" class="project card col-sm-6 col-md-4">
               <h4>
                 Salemed
                 <small>
-                  — система заказа магниторезонансной томографии
+                  — заказ магниторезонансной томографии
                 </small>
               </h4>
 
               <p>
-                Разработал систему для ввода предложений
-                от МРТ центров и уведомления для страховых
-                о том, что предложение было создано
+                Самое сложное было — это организовать приложение
+                на лиспе без привычных фреймворков
               </p>
 
               <p>
@@ -263,7 +273,7 @@
               </p>
             </div>
 
-            <div id="fhirbase" class="col-sm-6 col-md-4">
+            <div id="fhirbase" class="project card col-sm-6 col-md-4">
               <h4>
                 <a href="https://fhirbase.github.io"
                    class="link-muted4">Fhirbase</a>
@@ -273,7 +283,8 @@
                   <abbr title="FHIR (Fast healthcare interoperability resources)">медицинских
                     данных</abbr>
                   <a href="https://github.com/fhirbase/fhirbase-plv8"
-                     class="link-muted">c открытым исходным кодом</a>
+                     class="link-muted text-nowrap">c открытым
+                    исходным кодом</a>
                   на основе <span class="text-nowrap">PostgreSQL и V8</span>
                 </small>
               </h4>
@@ -282,8 +293,10 @@
                 Разработал
                 <a href="https://fhirbase.github.io/docs.html#fhirbase-performance"
                    class="link-muted">систему нагрузочного тестирования</a>,
-                которая автоматически запускается на EC2 из Travis CI
-                при создании метки в гит репозитории
+                которая запускается из
+                <span class="text-nowrap">Travis CI</span> на
+                <span class="text-nowrap">AWS EC2</span>
+                при создании метки в Git
               </p>
 
               <p>
@@ -304,12 +317,12 @@
             <a href="http://molinos.ru"
                class="link-muted3">Молинос</a>
 
-            <small title="04.2012-06.2013"
-                   class="text-nowrap">2012-2013</small>
+            <small title="04.2012 — 06.2013"
+                   class="text-nowrap">2012 — 2013</small>
           </h3>
 
           <div class="row">
-            <div id="neva" class="col-sm-6 col-md-4">
+            <div id="neva" class="project card col-sm-6 col-md-4">
               <h4>
                 <a href="http://nevareaktiv.ru"
                    class="link-muted4">Nevareaktiv</a>
@@ -320,9 +333,9 @@
               </h4>
 
               <p>
-                Разработал полнотекстовой поиск по каталогу продукции
-                и систему автоматического перезапуска приложения
-                в случае необратимой ошибки или перезагрузки сервера
+                Полнотекстовой поиск по каталогу продукции,
+                a также система автоматического перезапуска приложения
+                в случае перезагрузки сервера
               </p>
 
               <p>
@@ -336,7 +349,7 @@
               </p>
             </div>
 
-            <div class="col-sm-6 col-md-4">
+            <div class="project card col-sm-6 col-md-4">
               <h4>
                 <a href="http://omorfia.ru"
                    class="link-muted4">Omorfia</a>
@@ -348,7 +361,7 @@
               </h4>
 
               <p>
-                Разработал коллективный блог
+                Написал коллективный блог
               </p>
 
               <p>
@@ -366,20 +379,20 @@
           <h3>
             Аверс
 
-            <small title="09.2010-04.2012"
-                   class="text-nowrap">2010-2012</small>
+            <small title="09.2010 — 04.2012"
+                   class="text-nowrap">2010 — 2012</small>
           </h3>
 
           <div class="row">
-            <div id="prohq" class="col-sm-6 col-md-4">
+            <div id="prohq" class="project card col-sm-6 col-md-4">
               <h4>prohq.ru <small>— фриланс биржа</small></h4>
 
               <p>
-                Разработал систему которая, рассчитывает налоги,
-                находит адрес районной налоговой службы в
+                Поиск адреса в
                 <abbr title="Классификатор адресов Российской Федерации">КЛАДР</abbr>
-                и формирует налоговую декларацию в формате PDF готовую
-                для отправки по почте
+                и формирование
+                <span class="text-nowrap">PDF-бланка</span>
+                налоговой декларацию для ИП
               </p>
 
               <p>
@@ -401,17 +414,17 @@
           <h3>
             Джон студия
 
-            <small title="03.2008-09.2010"
-                   class="text-nowrap">2008-2010</small>
+            <small title="03.2008 — 09.2010"
+                   class="text-nowrap">2008 — 2010</small>
           </h3>
 
           <div class="row">
-            <div id="ska" class="col-sm-6 col-md-4">
+            <div id="ska" class="project card col-sm-6 col-md-4">
               <h4>ska.ru <small>— хоккейный клуб СКА</small></h4>
 
               <p>
-                Разработал загрузку фотографий с использованием
-                гема Paperclip
+                Из интереснго — это фотогалерея на
+                <span class="text-nowrap">геме Paperclip</span>
               </p>
 
               <p>
@@ -432,16 +445,16 @@
           <h3>
             Дараут сервис
 
-            <small title="11.2004-03.2008"
-                   class="text-nowrap">2004-2008</small>
+            <small title="11.2004 — 03.2008"
+                   class="text-nowrap">2004 — 2008</small>
           </h3>
 
           <div class="row">
-            <div id="hotelguide" class="col-sm-6 col-md-4">
+            <div id="hotelguide" class="project card col-sm-6 col-md-4">
               <h4>hotelguide.com <small>— бронирование гостиниц</small></h4>
 
               <p>
-                Переписал старую версию с ColdFusion
+                Переписал frontend с ColdFusion
                 на JavaServer Faces
               </p>
 
@@ -462,13 +475,13 @@
           <h3>
             Инвестиционная Компания Ленмонтажстрой
 
-            <small title="06.2003-11.2004"
-                   class="text-nowrap">2003-2004</small>
+            <small title="06.2003 — 11.2004"
+                   class="text-nowrap">2003 — 2004</small>
           </h3>
 
           <div class="row">
-            <div id="lms" class="col-sm-6 col-md-4">
-              <h4>LMS <small>— корпоративный сайт LMS</small></h4>
+            <div id="lms" class="project card col-sm-6 col-md-4">
+              <h4>LMS <small>— корпоративный сайт компании</small></h4>
 
               <p>
                 Мой первый проект
@@ -491,8 +504,8 @@
           <h3>
             Вооружённые силы Российской Федерации
 
-            <small title="06.2001-05.2003"
-                   class="text-nowrap">2001-2003</small>
+            <small title="06.2001 — 05.2003"
+                   class="text-nowrap">2001 — 2003</small>
           </h3>
 
 
@@ -509,8 +522,8 @@
           <h3>
             Агат
 
-            <small title="09.1999-05.2001"
-                   class="text-nowrap">1999-2001</small>
+            <small title="09.1999 — 05.2001"
+                   class="text-nowrap">1999 — 2001</small>
           </h3>
 
           <p>
@@ -532,7 +545,7 @@
               государственный университет телекоммуникаций им. проф.
               <span class="text-nowrap">М.А.Бонч-Бруевича</span></a>
 
-            <small class="text-nowrap">1997-2010</small>
+            <small class="text-nowrap">1997 — 2010</small>
           </h3>
 
           <p>
