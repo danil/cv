@@ -59,10 +59,14 @@
      .employer.card > h3 {margin-bottom: 0;}
      .project.card {margin-top: 30px;}
 
+     @media (max-width: 767px) {
+       .avatar-container > a > img {height: 200px;}
+       .avatar-container {margin-right: 10px;}
+       .page-header {margin-top: 20px;}
+     }
+
      @media (min-width: 768px) {
-       .avatar-container {
-         margin-top: 60px;
-       }
+       .avatar-container {margin-top: 60px;}
        .project.card {min-height: 200px;}
      }
 
@@ -78,10 +82,7 @@
        .project.card {min-height: 259px;}
      }
 
-     @media print {
-       abbr[title] {border-bottom: 0 none transparent;}
-       .avatar-container > img {height: 200px;}
-     }
+     @media print {abbr[title] {border-bottom: 0 none transparent;}}
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
