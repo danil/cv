@@ -1,3 +1,3 @@
 # TODO
 
-* add 404 `~/src/js/homepage/app/jade/404.jade`
+* update: hh.ru moikrug.ru linkedin.com stackoverflow.com/jobs
