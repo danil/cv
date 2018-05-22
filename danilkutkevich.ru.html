@@ -33,7 +33,8 @@
     <link rel="shortcut icon" href="/d.png"/>
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bitter|Fira+Sans">
+    <link rel="stylesheet"
+          href="//fonts.googleapis.com/css?family=itter|Fira+Sans|Roboto+Mono">
 
     <style>
      body, small {font-family: "Fira Sans", sans-serif;}
@@ -46,6 +47,8 @@
      h3 {color: #555;}
      h4 {color: #444;}
      p {color: #111;}
+
+     .badge-years {font-family: "Roboto Mono", monospace;}
 
      .badge-buzzword {
        /* background-color: transparent; */
@@ -77,12 +80,12 @@
      @media (max-width: 767px) {.page-header {white-space: nowrap;}}
      @media (max-width: 575px) {.page-header {white-space: normal;}}
 
-     .t-desktop {display: inline;}
-     .t-mobile {display: none;}
+     .t-fat {display: inline;}
+     .t-raw {display: none;}
      @media screen and (max-width: 991px)
      {
-       .t-desktop {display: none;}
-       .t-mobile {display: inline;}
+       .t-fat {display: none;}
+       .t-raw {display: inline;}
      }
 
      abbr.abbr[title] {
@@ -160,9 +163,10 @@
                 <div class="contact my-card col-md-12 col-lg-7">
                   Расположение
                   <big
-                  ><span class="t-desktop"
-                   >Санкт-Петербург</span><span class="t-mobile"
-                                          >СПб</span>,
+                  ><span class="t-fat"
+                   >Санкт-Петербург</span
+                                   ><span class="t-raw"
+                                    >СПб</span>,
                     Россия</big>
                 </div>
 
@@ -225,15 +229,16 @@
 
         <div id="armor5games" class="employer my-card col-12 mt-4">
           <h3>
-            <span class="badge badge-warning">1</span>
-            <a href="http://armor5games.com/ru" class="ml-3 ml-xl-1">Armor5Games</a>
-            <em class="ml-5 ml-xl-1 d-block d-lg-block d-xl-inline"
-            ><small class="t-desktop text-nowrap"
-                       title="11.2016 — по настоящее время"
-                >2016 — по настоящее
-              время</small
-                   ><small class="t-mobile text-nowrap"
-                    >11.2016 — по настоящее время</small></em>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="11.2016 — по настоящее время"
+             >2016<small>—</small>2018</span
+                   ><span class="t-raw text-nowrap"
+                          title="11.2016 — по настоящее время"
+                    ><small>11.</small>2016<small>—</small>2018</span></span>
+            <a href="http://armor5games.com/ru"
+               class="d-block d-xl-inline mt-1 mt-xl-0 ml-0 ml-xl-1"
+            >Armor5Games</a>
           </h3>
 
           <div class="row">
@@ -297,14 +302,15 @@
       <div class="row">
         <div id="waveaccess" class="employer my-card col-12 mt-5">
           <h3>
-            <span class="badge badge-warning">2</span>
-            <a href="http://waveaccess.ru" class="ml-2 ml-xl-1">Waveaccess</a>
-            <em class="ml-5 ml-xl-1 d-block d-lg-block d-xl-inline"
-            ><small class="t-desktop text-nowrap"
-                    title="06.2013 — 08.2016"
-             >2013 — 2016</small
-                         ><small class="t-mobile text-nowrap"
-                          >06.2013 — 08.2016</small></em>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="06.2013 — 08.2016"
+             >2013<small>—</small>2016</span
+                   ><span class="t-raw text-nowrap"
+                    ><small>06.</small>2013<small>—08.</small>2016</span></span>
+            <a href="http://waveaccess.ru"
+               class="d-block d-xl-inline mt-1 mt-xl-0 ml-0 ml-xl-1"
+            >Waveaccess</a>
           </h3>
 
           <div class="row">
@@ -435,14 +441,15 @@
       <div class="row">
         <div id="molinos" class="employer my-card col-12 col-xl-6 mt-5">
           <h3>
-            <span class="badge badge-warning">3</span>
-            <a href="http://molinos.ru" class="ml-2">Молинос</a>
-            <em class="ml-5 d-block"
-            ><small class="t-desktop text-nowrap"
-                    title="04.2012 — 06.2013"
-             >2012 — 2013</small
-                         ><small class="t-mobile text-nowrap"
-                          >04.2012 — 06.2013</small></em>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="04.2012 — 06.2013"
+             >2012<small>—</small>2013</span
+                   ><span class="t-raw text-nowrap"
+                    ><small>04.</small>2012<small>—06.</small>2013</span></span>
+            <a href="http://molinos.ru"
+               class="d-block mt-1"
+            >Молинос</a>
           </h3>
           <div class="row">
             <div class="col-12 col-md-6">
@@ -501,14 +508,14 @@
         </div>
         <div id="avers" class="employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
           <h3>
-            <span class="badge badge-warning">4</span>
-            <span class="ml-2">Аверс</span>
-            <em class="ml-5 d-block"
-            ><small class="t-desktop text-nowrap"
-                    title="09.2010 — 04.2012"
-             >2010 — 2012</small
-                         ><small class="t-mobile text-nowrap"
-                          >09.2010 — 04.2012</small></em>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="09.2010 — 04.2012"
+             >2010<small>—</small>2012</span
+                   ><span class="t-raw text-nowrap"
+                    ><small>09.</small>2010<small>—04.</small>2012</span></span>
+            <span class="d-block mt-1"
+            >Аверс</span>
           </h3>
           <div class="row">
             <div class="col-12">
@@ -546,14 +553,20 @@
         </div>
         <div id="john" class="employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
           <h3>
-            <span class="badge badge-warning">5</span>
-            <span class="ml-2">Джон студия</span>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="03.2008 — 09.2010"
+             >2008<small>—</small>2010</span
+                   ><span class="t-raw text-nowrap"
+                    ><small>03.</small>2008<small>—09.</small>2010</span></span>
+            <span class="d-block mt-1"
+            >Джон студия</span>
             <em class="ml-5 d-block d-block"
-            ><small class="t-desktop text-nowrap"
-                    title="03.2008 — 09.2010"
-             >2008 — 2010</small
-                         ><small class="t-mobile text-nowrap"
-                          >03.2008 — 09.2010</small></em>
+            ><small class="t-fat text-nowrap"
+                    title=
+             ></small
+                         ><small class="t-raw text-nowrap"
+                          ></small></em>
           </h3>
           <div class="row">
             <div class="col-12">
@@ -589,14 +602,14 @@
       <div class="row">
         <div id="darout" class="employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
           <h3>
-            <span class="badge badge-warning">6</span>
-            <span class="ml-2">Дараут сервис</span>
-            <em class="ml-5 d-block"
-            ><small class="t-desktop text-nowrap"
-                    title="11.2004 — 03.2008"
-             >2004 — 2008</small
-                         ><small class="t-mobile text-nowrap"
-                          >11.2004 — 03.2008</small></em>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="11.2004 — 03.2008"
+             >2004<small>—</small>2008</span
+                   ><span class="t-raw text-nowrap"
+                    ><small>11.</small>2004<small>—03.</small>2008</span></span>
+            <span class="d-block mt-1"
+            >Дараут сервис</span>
           </h3>
           <div class="row">
             <div class="col-12">
@@ -628,16 +641,14 @@
         </div>
         <div id="lmsic" class="employer my-card col-sm-12 col-md-6 col-xl-9 mt-5">
           <h3>
-            <span class="badge badge-warning">7</span>
-            <span class="ml-3 ml-lg-3 ml-xl-2">Инвестиционная</span>
-            <span class="ml-5 ml-lg-5 ml-xl-0 d-block d-lg-block d-xl-inline">Компания</span>
-            <span class="ml-5 ml-lg-5 ml-xl-0 d-block d-lg-block d-xl-inline">Ленмонтажстрой</span>
-            <em class="ml-5 d-block"
-            ><small class="t-desktop text-nowrap"
-                    title="06.2003 — 11.2004"
-             >2003 — 2004</small
-                         ><small class="t-mobile text-nowrap"
-                          >06.2003 — 11.2004</small></em>
+            <span class="badge-years badge badge-warning"
+            ><span class="t-fat text-nowrap"
+                   title="06.2003 — 11.2004"
+             >2003<small>—</small>2004</span
+                   ><span class="t-raw text-nowrap"
+                    ><small>06.</small>2003<small>—11.</small>2004</span></span>
+            <span class="d-block mt-1"
+            >Инвестиционная Компания Ленмонтажстрой</span>
           </h3>
           <div class="row">
             <div class="col-12 col-xl-4">
@@ -710,7 +721,7 @@
               <span id="edit_date_wrap" class="btn btn-light btn-sm disabled"
                     disabled
               ><i class="fas fa-info text-muted"></i>
-                <span class="text-nowrap">22 мая 2018 в 8:00</span></span>
+                <span class="text-nowrap">22 мая 2018 в 13:18</span></span>
             </em></small>
           </div>
         </div>
