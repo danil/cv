@@ -69,6 +69,12 @@
      @media (max-width: 767px) {.page-header {white-space: nowrap;}}
      @media (max-width: 575px) {.page-header {white-space: normal;}}
 
+     abbr[title] {
+       border-bottom: 0 none transparent;
+       cursor: help;
+       text-decoration: underline dotted;
+     }
+
      .t-fat {display: inline;}
      .t-raw {display: none;}
      @media screen and (max-width: 991px)
@@ -76,29 +82,9 @@
        .t-fat {display: none;}
        .t-raw {display: inline;}
      }
-
-     abbr.abbr[title] {
-       border-bottom: 0 none transparent;
-       /* border-bottom: 1px dashed #ADADAD; */
-       cursor:help;
-       text-decoration: underline dotted;
-     }
-     @media screen and (max-width: 991px)
-     {
-       abbr.abbr[title] {
-         border-bottom: 0 none transparent;
-         cursor: inherit;
-         text-decoration: none;
-       }
-       abbr.abbr[title]:after {content: " (" attr(title) ")";}
-     }
      @media print {
-       abbr.abbr[title] {
-         border-bottom: 0 none transparent;
-         cursor: inherit;
-         text-decoration: none;
-       }
-       abbr.abbr[title]:after {content: " (" attr(title) ")";}
+       .t-fat {display: none;}
+       .t-raw {display: inline;}
      }
     </style>
 
@@ -195,9 +181,14 @@
               <div class="alert alert-primary mt-5" role="alert">
                 <p class="mb-0">
                   Разрабатываю
-                  <abbr title="шардирование на уровне приложения"
-                        class="abbr"
-                  >горизонтально масштабируемые</abbr>
+                  <span class="t-fat">
+                    <abbr title="шардирование на уровне приложения">
+                      горизонтально масштабируемые</abbr>
+                  </span>
+                  <span class="t-raw">
+                    горизонтально масштабируемые (шардирование на
+                    уровне приложения)
+                  </span>
                   высоконагруженные API и кэширующие
                   <span class="text-nowrap">серверы на Go</span>.
                 </p>
@@ -387,9 +378,14 @@
                   <div class="card-subtitle mb-2 text-muted">
                     <small>
                       Хранилище
-                      <abbr title="FHIR — Fast healthcare interoperability resources"
-                            class="abbr"
-                      >медицинских данных</abbr>
+                      <span class="t-fat">
+                        <abbr title="FHIR — Fast healthcare interoperability resources"
+                        >медицинских данных</abbr>
+                      </span>
+                      <span class="t-raw">
+                        медицинских данных (FHIR — Fast healthcare
+                        interoperability resources)
+                      </span>
                       <a href="https://github.com/fhirbase/fhirbase-plv8"
                          class="link-muted text-nowrap">с открытым
                         исходным кодом</a>
@@ -400,9 +396,13 @@
                     <p class="mb-0">
                       Вносил исправления в имеющийся функционал в соответствии
                       со стандартом
-                      <abbr title="Fast healthcare interoperability resources"
-                            class="abbr"
-                      >FHIR</abbr>.
+                      <span class="t-fat">
+                        <abbr title="Fast healthcare interoperability resources"
+                        >FHIR</abbr>.
+                      </span>
+                      <span class="t-raw">
+                        FHIR (Fast healthcare interoperability resources).
+                      </span>
                       Разработал
                       <a href="https://fhirbase.github.io/docs.html#fhirbase-performance"
                          class="link-muted">систему нагрузочного тестирования</a>,
@@ -519,8 +519,13 @@
                   <div class="card-text">
                     <p class="mb-0">
                       Поиск адреса по
-                      <abbr title="Классификатор адресов Российской Федерации"
-                            class="abbr">КЛАДР</abbr>
+                      <span class="t-fat">
+                        <abbr title="Классификатор адресов Российской Федерации"
+                        >КЛАДР</abbr>
+                      </span>
+                      <span class="t-raw">
+                        КЛАДР (Классификатор адресов Российской Федерации)
+                      </span>
                       и формирование
                       <span class="text-nowrap">PDF-бланка</span>
                       ИП для налоговой декларации
