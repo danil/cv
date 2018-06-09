@@ -50,9 +50,9 @@
      h4 {color: #444;}
      p {color: #111;}
 
-     .badge-years {font-family: "Roboto Mono", monospace;}
+     .my-badge-years {font-family: "Roboto Mono", monospace;}
 
-     .badge-buzzword {
+     .my-badge-buzzword {
        /* background-color: transparent; */
        color: #000;
        font-weight: normal;
@@ -64,12 +64,33 @@
        border: 1px solid transparent;
      }
 
-     .employer.my-card > h3 em, #education h3 > em {font-size: 70%;}
-     .avatar-container > a > img {height: 200px;}
-     .page-header {white-space: nowrap;}
-     @media (max-width: 991px) {.page-header {white-space: normal;}}
-     @media (max-width: 767px) {.page-header {white-space: nowrap;}}
-     @media (max-width: 575px) {.page-header {white-space: normal;}}
+     .my-avatar-container > a > img {max-width: 200px; max-height: 200px;}
+     @media (max-width: 991px) {
+       .my-avatar-container > a > img {max-width: 200px; max-height: 200px;}
+     }
+     @media (max-width: 767px) {
+       .my-avatar-container > a > img {max-width: 200x; max-height: 200px;}
+     }
+     @media (max-width: 671px) {
+       .my-avatar-container > a > img {max-width: 180x; max-height: 180px;}
+     }
+     @media (max-width: 534px) {
+       .my-avatar-container > a > img {max-width: 150px; max-height: 150px;}
+     }
+     @media (max-width: 400px) {
+       .my-avatar-container > a > img {max-width: 100px; max-height: 100px;}
+     }
+     @media (max-width: 320px) {
+       .my-avatar-container > a > img {max-width: 80px; max-height: 80px;}
+     }
+
+     .my-card { page-break-inside: avoid;}
+     .my-employer.my-card > h3 em, #education h3 > em {font-size: 70%;}
+     .my-page-header {white-space: nowrap;}
+     @media (max-width: 991px) {.my-page-header {white-space: normal;}}
+     @media (max-width: 767px) {.my-page-header {white-space: normal;}}
+     /* @media (max-width: 767px) {.my-page-header {white-space: nowrap;}} */
+     @media (max-width: 575px) {.my-page-header {white-space: normal;}}
 
      abbr[title] {
        border-bottom: 0 none transparent;
@@ -104,10 +125,10 @@
   <body>
     <main role="main" class="container">
       <div id="top" class="row">
-        <div class="col-md-4 order-md-last col-lg-3">
+        <div class="d-none d-sm-block col-sm-4 col-lg-3 order-last">
           <div class="row">
             <div class="col-sm-12">
-              <div class="avatar-container mt-4 mt-sm-5">
+              <div class="my-avatar-container mt-4 mt-sm-5">
                 <a href="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=960"
                 ><img
                    src="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=440"
@@ -118,10 +139,10 @@
           </div>
         </div>
 
-        <div class="col-md-8 order-md-first col-lg-9">
+        <div class="col-12 col-sm-8 col-lg-9 order-first">
           <div class="row">
             <div class="col-sm-12">
-              <h1 id="title" class="page-header mt-3 mt-sm-4">
+              <h1 id="title" class="my-page-header mt-3 mt-sm-4">
                 Данил Куткевич
                 <small class="small"
                 ><span class="text-nowrap">Go программист</span></small>
@@ -190,21 +211,21 @@
               <!-- <p class="mb-0">Birthday January, 30th, 1980</p> -->
             </div>
           </div>
+        </div>
+      </div>
 
-          <div id="about" class="row">
-            <div class="col-sm-12">
-              <div class="alert alert-primary mt-5" role="alert">
-                <p class="mb-0">
-                  С 2016 года пишу на Go, до этого писал на Ruby on Rails.
-                  Разрабатываю горизонтально масштабируемые API
-                  и кэширующие серверы.
-                </p>
-                <hr>
-                Пример моего кода на
-                <a href="https://github.com/danil/go_csv_aggregate_example"
-                >гитхабе</a>.
-              </div>
-            </div>
+      <div id="about" class="row">
+        <div class="col-lg-9">
+          <div class="alert alert-primary mt-5" role="alert">
+            <p class="mb-0">
+              С 2016 года пишу на Go, до этого писал на Ruby on Rails.
+              Разрабатываю горизонтально масштабируемые API
+              и кэширующие серверы.
+            </p>
+            <hr>
+            Пример моего кода на
+            <a href="https://github.com/danil/go_csv_aggregate_example"
+            >гитхабе</a>.
           </div>
         </div>
       </div>
@@ -214,9 +235,9 @@
           <h2>Опыт работы</h2>
         </div>
 
-        <div id="armor5games" class="employer my-card col-12 mt-4">
+        <div id="armor5games" class="my-employer my-card col-12 mt-4">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
                    title="10.2016 — по настоящее время"
              ><small>10.</small>2016<small>—</small>2018</span></span>
@@ -247,10 +268,10 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Go</span>
-                  <span class="badge badge-light badge-buzzword">PostgreSQL</span>
-                  <span class="badge badge-light badge-buzzword">MongoDB</span>
-                  <span class="badge badge-light badge-buzzword">Ansible</span>
+                  <span class="badge badge-light my-badge-buzzword">Go</span>
+                  <span class="badge badge-light my-badge-buzzword">PostgreSQL</span>
+                  <span class="badge badge-light my-badge-buzzword">MongoDB</span>
+                  <span class="badge badge-light my-badge-buzzword">Ansible</span>
                 </div>
               </div>
             </div>
@@ -277,10 +298,10 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Go</span>
-                  <span class="badge badge-light badge-buzzword">MySQL</span>
-                  <span class="badge badge-light badge-buzzword">MongoDB</span>
-                  <span class="badge badge-light badge-buzzword">Ansible</span>
+                  <span class="badge badge-light my-badge-buzzword">Go</span>
+                  <span class="badge badge-light my-badge-buzzword">MySQL</span>
+                  <span class="badge badge-light my-badge-buzzword">MongoDB</span>
+                  <span class="badge badge-light my-badge-buzzword">Ansible</span>
                 </div>
               </div>
             </div>
@@ -289,9 +310,9 @@
       </div>
 
       <div class="row">
-        <div id="waveaccess" class="employer my-card col-12 mt-5">
+        <div id="waveaccess" class="my-employer my-card col-12 mt-5">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
              ><small>06.</small>2013<small>—08.</small>2016</span></span>
             <a href="http://waveaccess.ru"
@@ -320,8 +341,8 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Ruby on Rails</span>
-                  <span class="badge badge-light badge-buzzword">PostgreSQL</span>
+                  <span class="badge badge-light my-badge-buzzword">Ruby on Rails</span>
+                  <span class="badge badge-light my-badge-buzzword">PostgreSQL</span>
                 </div>
               </div>
             </div>
@@ -344,10 +365,10 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Ruby on Rails</span>
-                  <span class="badge badge-light badge-buzzword">PostgreSQL</span>
-                  <span class="badge badge-light badge-buzzword">WebRTC</span>
-                  <span class="badge badge-light badge-buzzword">Heroku</span>
+                  <span class="badge badge-light my-badge-buzzword">Ruby on Rails</span>
+                  <span class="badge badge-light my-badge-buzzword">PostgreSQL</span>
+                  <span class="badge badge-light my-badge-buzzword">WebRTC</span>
+                  <span class="badge badge-light my-badge-buzzword">Heroku</span>
                 </div>
               </div>
             </div>
@@ -372,9 +393,9 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Clojure</span>
-                  <span class="badge badge-light badge-buzzword">PostgreSQL</span>
-                  <span class="badge badge-light badge-buzzword">AngularJS</span>
+                  <span class="badge badge-light my-badge-buzzword">Clojure</span>
+                  <span class="badge badge-light my-badge-buzzword">PostgreSQL</span>
+                  <span class="badge badge-light my-badge-buzzword">AngularJS</span>
                 </div>
               </div>
             </div>
@@ -417,11 +438,11 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">CoffeeScript</span>
-                  <span class="badge badge-light badge-buzzword">PostgreSQL</span>
-                  <span class="badge badge-light badge-buzzword">Bash script</span>
-                  <span class="badge badge-light badge-buzzword">Ansible</span>
-                  <span class="badge badge-light badge-buzzword">AWS</span>
+                  <span class="badge badge-light my-badge-buzzword">CoffeeScript</span>
+                  <span class="badge badge-light my-badge-buzzword">PostgreSQL</span>
+                  <span class="badge badge-light my-badge-buzzword">Bash script</span>
+                  <span class="badge badge-light my-badge-buzzword">Ansible</span>
+                  <span class="badge badge-light my-badge-buzzword">AWS</span>
                 </div>
               </div>
 
@@ -431,9 +452,9 @@
       </div>
 
       <div class="row">
-        <div id="molinos" class="employer my-card col-12 col-xl-6 mt-5">
+        <div id="molinos" class="my-employer my-card col-12 col-xl-6 mt-5">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
              ><small>04.</small>2012<small>—06.</small>2013</span></span>
             <a href="http://molinos.ru"
@@ -460,13 +481,13 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Ruby on Rails</span>
-                  <span class="badge badge-light badge-buzzword">Thinking Sphinx</span>
-                  <span class="badge badge-light badge-buzzword">MySQL</span>
-                  <span class="badge badge-light badge-buzzword">RSpec</span>
-                  <span class="badge badge-light badge-buzzword">Nginx</span>
-                  <span class="badge badge-light badge-buzzword">God</span>
-                  <span class="badge badge-light badge-buzzword">Capistrano</span>
+                  <span class="badge badge-light my-badge-buzzword">Ruby on Rails</span>
+                  <span class="badge badge-light my-badge-buzzword">Thinking Sphinx</span>
+                  <span class="badge badge-light my-badge-buzzword">MySQL</span>
+                  <span class="badge badge-light my-badge-buzzword">RSpec</span>
+                  <span class="badge badge-light my-badge-buzzword">Nginx</span>
+                  <span class="badge badge-light my-badge-buzzword">God</span>
+                  <span class="badge badge-light my-badge-buzzword">Capistrano</span>
                 </div>
               </div>
             </div>
@@ -487,17 +508,17 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Ruby on Rails</span>
-                  <span class="badge badge-light badge-buzzword">MySQL</span>
-                  <span class="badge badge-light badge-buzzword">RSpec</span>
+                  <span class="badge badge-light my-badge-buzzword">Ruby on Rails</span>
+                  <span class="badge badge-light my-badge-buzzword">MySQL</span>
+                  <span class="badge badge-light my-badge-buzzword">RSpec</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="avers" class="employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
+        <div id="avers" class="my-employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
              ><small>09.</small>2010<small>—04.</small>2012</span></span>
             <span class="d-block mt-1"
@@ -530,21 +551,21 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Ruby on Rails</span>
-                  <span class="badge badge-light badge-buzzword">Thinking Sphinx</span>
-                  <span class="badge badge-light badge-buzzword">MySQL</span>
-                  <span class="badge badge-light badge-buzzword">Nginx</span>
-                  <span class="badge badge-light badge-buzzword">jQuery</span>
-                  <span class="badge badge-light badge-buzzword">Haml</span>
-                  <span class="badge badge-light badge-buzzword">Sass</span>
+                  <span class="badge badge-light my-badge-buzzword">Ruby on Rails</span>
+                  <span class="badge badge-light my-badge-buzzword">Thinking Sphinx</span>
+                  <span class="badge badge-light my-badge-buzzword">MySQL</span>
+                  <span class="badge badge-light my-badge-buzzword">Nginx</span>
+                  <span class="badge badge-light my-badge-buzzword">jQuery</span>
+                  <span class="badge badge-light my-badge-buzzword">Haml</span>
+                  <span class="badge badge-light my-badge-buzzword">Sass</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="john" class="employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
+        <div id="john" class="my-employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
              ><small>03.</small>2008<small>—09.</small>2010</span></span>
             <a href="http://john.ru" class="d-block mt-1"
@@ -568,12 +589,12 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">Ruby on Rails</span>
-                  <span class="badge badge-light badge-buzzword">PostgreSQL</span>
-                  <span class="badge badge-light badge-buzzword">Nginx</span>
-                  <span class="badge badge-light badge-buzzword">jQuery</span>
-                  <span class="badge badge-light badge-buzzword">CSS</span>
-                  <span class="badge badge-light badge-buzzword">HTML</span>
+                  <span class="badge badge-light my-badge-buzzword">Ruby on Rails</span>
+                  <span class="badge badge-light my-badge-buzzword">PostgreSQL</span>
+                  <span class="badge badge-light my-badge-buzzword">Nginx</span>
+                  <span class="badge badge-light my-badge-buzzword">jQuery</span>
+                  <span class="badge badge-light my-badge-buzzword">CSS</span>
+                  <span class="badge badge-light my-badge-buzzword">HTML</span>
                 </div>
               </div>
             </div>
@@ -582,9 +603,9 @@
       </div>
 
       <div class="row">
-        <div id="darout" class="employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
+        <div id="darout" class="my-employer my-card col-sm-12 col-md-6 col-xl-3 mt-5">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
              ><small>11.</small>2004<small>—03.</small>2008</span></span>
             <span class="d-block mt-1"
@@ -608,19 +629,19 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">ColdFusion</span>
-                  <span class="badge badge-light badge-buzzword">MySQL</span>
-                  <span class="badge badge-light badge-buzzword">JavaScript</span>
-                  <span class="badge badge-light badge-buzzword">CSS</span>
-                  <span class="badge badge-light badge-buzzword">HTML</span>
+                  <span class="badge badge-light my-badge-buzzword">ColdFusion</span>
+                  <span class="badge badge-light my-badge-buzzword">MySQL</span>
+                  <span class="badge badge-light my-badge-buzzword">JavaScript</span>
+                  <span class="badge badge-light my-badge-buzzword">CSS</span>
+                  <span class="badge badge-light my-badge-buzzword">HTML</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="lmsic" class="employer my-card col-sm-12 col-md-6 col-xl-9 mt-5">
+        <div id="lmsic" class="my-employer my-card col-sm-12 col-md-6 col-xl-9 mt-5">
           <h3>
-            <span class="badge-years badge badge-warning"
+            <span class="my-badge-years badge badge-warning"
             ><span class="text-nowrap"
              ><small>06.</small>2003<small>—11.</small>2004</span></span>
             <span class="d-block mt-1"
@@ -643,10 +664,10 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <span class="badge badge-light badge-buzzword">PHP</span>
-                  <span class="badge badge-light badge-buzzword">MySQL</span>
-                  <span class="badge badge-light badge-buzzword">CSS</span>
-                  <span class="badge badge-light badge-buzzword">HTML</span>
+                  <span class="badge badge-light my-badge-buzzword">PHP</span>
+                  <span class="badge badge-light my-badge-buzzword">MySQL</span>
+                  <span class="badge badge-light my-badge-buzzword">CSS</span>
+                  <span class="badge badge-light my-badge-buzzword">HTML</span>
                 </div>
               </div>
             </div>
