@@ -65,6 +65,7 @@
        border: 1px solid transparent;
      }
 
+     .my-text-justify {text-align: justify; text-justify: auto;}
      .my-avatar-container > a > img {max-width: 200px; max-height: 200px;}
      @media (max-width: 991px) {
        .my-avatar-container > a > img {max-width: 200px; max-height: 200px;}
@@ -79,6 +80,7 @@
        .my-avatar-container > a > img {max-width: 150px; max-height: 150px;}
      }
      @media (max-width: 400px) {
+       .my-text-justify {text-align: left; text-justify: none;}
        .my-avatar-container > a > img {max-width: 100px; max-height: 100px;}
      }
      @media (max-width: 320px) {
@@ -230,7 +232,7 @@
               <br>
               с 2016 года пишу на Go, до этого писал на Ruby on Rails.
             </p>
-            <p class="text-justify">
+            <p class="my-text-justify">
               Есть два проекта на Golang разработанные
               на коммерческой основе — это
               бекенды к игровым мобильным приложениям.
@@ -241,7 +243,7 @@
               >немного общей логики в виде опенсорса</a>,
               вынесенной в отдельные пакеты.
             </p>
-            <p class="text-justify">
+            <p class="my-text-justify">
               Могу похвастаться, самая большая из рекламных кампаний,
               принесшая нам 50000 регистраций новых пользователей,
               в течении нескольких дней, и создавшая нагрузку до 120
@@ -256,13 +258,13 @@
               из базы данных, кэшируется и никогда не перечитывается,
               либо до перезагрузки приложения, либо до истечения TTL.
             </p>
-            <p class="text-justify">
+            <p class="my-text-justify">
               120 RPS — это конечно мало, по сравнению с теми цифрами,
               которыми хвастаются на просторах интернета.
               Но направить большее количество трафика на сервер,
               к сожалению, не смогли.
             </p>
-            <p class="mb-0 text-justify">
+            <p class="mb-0 my-text-justify">
               Кроме этих проектов, есть и другие,
               написанные единолично.
               Но, не смотря на это, я командный игрок, и
