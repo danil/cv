@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any
          other head content must come *after* these tags -->
 
-    <title>Данил Куткевич — Go-разработчик</title>
+    <title>Данил Куткевич — бэкенд-разработчик</title>
     <meta name="description"
           content="Разрабатываю высоконагруженные API и кэширующие серверы на Go.">
 
@@ -44,6 +44,7 @@
        font-family: "PT Serif", serif;
        font-weight: normal !important;
      }
+
      h1 {color: #777;}
      h2 {color: #666;}
      h3 {color: #555;}
@@ -132,7 +133,7 @@
                 <a href="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=960"
                 ><img
                    src="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=440"
-                   class="rounded-circle mx-auto my-auto d-block"
+                   class="rounded-circle float-right d-block"
                    alt="Фотография Данила Куткевича"></a>
               </div>
             </div>
@@ -145,14 +146,14 @@
               <h1 id="title" class="my-page-header mt-3 mt-sm-4">
                 Данил Куткевич
                 <small class="small"
-                ><span class="text-nowrap">Go-разработчик</span></small>
+                ><span class="text-nowrap">бэкенд-разработчик</span></small>
               </h1>
             </div>
 
             <div id="contacts" class="col-12 mt-4">
               <div class="row">
                 <div class="contact col-md-12 col-lg-5">
-                  <span class="text-nowrap">Ел. почта</span>
+                  <span class="text-nowrap">Эл. почта</span>
                   <big>
                     <a href="mailto:danil@kutkevich.org"
                        class="text-dark">danil@kutkevich.org</a>
@@ -214,32 +215,34 @@
         </div>
       </div>
 
-      <div id="about" class="row">
-        <div class="col-lg-9">
-          <div class="alert alert-primary mt-5" role="alert">
-            <h4 class="alert-heading">Здравствуйте!</h4>
-            <p>
+      <div id="about_header" class="row mt-5 mt-lg-0">
+        <div class="col-12">
+          <h2>Кратко о себе</h2>
+        </div>
+      </div>
 
-            </p>
+      <div id="about" class="row">
+        <div class="col-12">
+          <div class="alert alert-primary mt-4" role="alert">
+            <p>Здравствуйте!</p>
             <p>
               Меня зовут Данил,
               <br>
               с 2016 года пишу на Go, до этого писал на Ruby on Rails.
             </p>
-            <p>
+            <p class="text-justify">
               Есть два проекта на Golang разработанные
               на коммерческой основе — это
               бекенды к игровым мобильным приложениям.
               Подробнее о них ниже, в разделе
               <a href="#experience">«опыт работы»</a>.
-              <br>
               К этим проектам есть
               <a href="https://github.com/armor5games/a5g"
-              >немножко общей логики в виде опенсорса</a>,
+              >немного общей логики в виде опенсорса</a>,
               вынесенной в отдельные пакеты.
             </p>
-            <p>
-              Могу похвастаться, самая большая из рекламных компаний,
+            <p class="text-justify">
+              Могу похвастаться, самая большая из рекламных кампаний,
               принесшая нам 50000 регистраций новых пользователей,
               в течении нескольких дней, и создавшая нагрузку до 120
               RPS, загрузила сервер менее чем на 10%.
@@ -249,21 +252,21 @@
               Написанное же мной приложение, потратило едва заметное
               количество процессорного времени и памяти.
               <br>
-              И это не смотря на то, что всё прочитанное
+              И это, не смотря на то, что всё прочитанное
               из базы данных, кэшируется и никогда не перечитывается,
               либо до перезагрузки приложения, либо до истечения TTL.
             </p>
-            <p>
-              120 RPS — это конечно немного, по сравнению с теми цифрами,
+            <p class="text-justify">
+              120 RPS — это конечно мало, по сравнению с теми цифрами,
               которыми хвастаются на просторах интернета.
               Но направить большее количество трафика на сервер,
               к сожалению, не смогли.
             </p>
-            <p class="mb-0">
+            <p class="mb-0 text-justify">
               Кроме этих проектов, есть и другие,
               написанные единолично.
-              Но не смотря на это, я командный игрок, и
-              лучше всего работаю в сплочённой команде
+              Но, не смотря на это, я командный игрок, и
+              эффективнее всего работаю в сплочённой команде
               единомышленников)
             </p>
             <div id="about_footer">
@@ -406,7 +409,7 @@
                   </div>
                   <div class="card-text">
                     <p class="mb-0">
-                      Написал серверную часть.
+                      Написал <span class="text-nowrap">back end</span>.
                       Например, приём платежей через Paypal, а также
                       <span class="text-nowrap">WebRTC-видеоконференцию</span>
                     </p>
@@ -521,7 +524,7 @@
                   </div>
                   <div class="card-text">
                     <p class="mb-0">
-                      Написал серверную часть.
+                      Написал backend.
                       Например, полнотекстовой поиск по каталогу продукции,
                       а также систему автоматического перезапуска приложения
                       при перезагрузке сервера
