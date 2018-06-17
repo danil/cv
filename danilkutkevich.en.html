@@ -64,6 +64,7 @@
        border: 1px solid transparent;
      }
 
+     .my-text-justify {text-align: justify; text-justify: auto;}
      .my-avatar-container > a > img {max-width: 200px; max-height: 200px;}
      @media (max-width: 991px) {
        .my-avatar-container > a > img {max-width: 200px; max-height: 200px;}
@@ -78,6 +79,7 @@
        .my-avatar-container > a > img {max-width: 150px; max-height: 150px;}
      }
      @media (max-width: 400px) {
+       .my-text-justify {text-align: left; text-justify: none;}
        .my-avatar-container > a > img {max-width: 100px; max-height: 100px;}
      }
      @media (max-width: 320px) {
@@ -89,6 +91,7 @@
      .my-page-header {white-space: nowrap;}
      @media (max-width: 991px) {.my-page-header {white-space: normal;}}
      @media (max-width: 767px) {.my-page-header {white-space: nowrap;}}
+     /* @media (max-width: 767px) {.my-page-header {white-space: nowrap;}} */
      @media (max-width: 575px) {.my-page-header {white-space: normal;}}
 
      abbr[title] {
@@ -131,7 +134,7 @@
                 <a href="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=960"
                 ><img
                    src="https://secure.gravatar.com/avatar/e68d5a597bda1b855dffd225ec19d010?size=440"
-                   class="rounded-circle mx-auto my-auto d-block"
+                   class="rounded-circle float-right d-block"
                    alt="Danil Kutkevich photo"></a>
               </div>
             </div>
@@ -214,18 +217,66 @@
         </div>
       </div>
 
+      <div id="about_header" class="row mt-5 mt-lg-0">
+        <div class="col-12">
+          <h2>Briefly about myself</h2>
+        </div>
+      </div>
+
       <div id="about" class="row">
-        <div class="col-lg-9">
-          <div class="alert alert-primary mt-5" role="alert">
-            <p class="mb-0">
+        <div class="col-12">
+          <div class="alert alert-primary mt-4" role="alert">
+            <p>Hello!</p>
+            <p>
               Since 2016 I'm writing on Go,
               before that it was been Ruby on Rails.
-              I develop horizontally scalable APIs and caching
-              servers.
+            </p>
+            <p class="my-text-justify">
+              There are two projects on Golang,
+              developed on a commercial basis —
+              these are backends to gaming mobile applications.
+              More about them below, in the section
+              <a href="#experience">«work experience»</a>.
+              To these projects there is
+              <a href="https://github.com/armor5games/a5g"
+              >a little general logic in the form of the open source</a>,
+              taken out in separate packages.
+            </p>
+            <p class="my-text-justify">
+              I can boast that the biggest advertising campaign,
+              which brought us 50,000 new user registrations,
+              for several days, and created a load of up to 120 RPS,
+              are loaded the server by less than 10%.
+              <br>
+              Of these resources, 90% of the processor time and memory,
+              had to database.
+              The application written by me, has spent hardly
+              noticeable amount of processor time and memory.
+              <br>
+              And this, in spite of the fact that everything readed
+              from the database is cached and never re-read,
+              either before the application is reloaded
+              or before the TTL expires.
+            </p>
+            <p class="my-text-justify">
+              120 RPS — this is of course small.
+              But to engage more traffic to the server, unfortunately,
+              unable to.
+            </p>
+            <p class="mb-0 my-text-justify">
+              In addition to these projects, there are others
+              written individually by me.
+              But, despite this, I'm a team player, and
+              most effectively I work in a cohesive team
+              of like-minded people.
             </p>
             <div id="about_footer">
               <hr>
-              Example of my code can be viewed at
+              <p class="mt-0">
+                I develop horizontally scalable APIs and caching
+                servers.
+              </p>
+              Example of my code at
               <a href="https://github.com/danil/go_csv_aggregate_example"
               >github</a>.
             </div>
@@ -235,7 +286,7 @@
 
       <div id="experience" class="row">
         <div class="col-12 mt-5">
-          <h2>Experience</h2>
+          <h2>Work experience</h2>
         </div>
 
         <div id="armor5games" class="my-employer my-card col-12 mt-4">
@@ -732,7 +783,7 @@
                     class="btn btn-light btn-sm disabled"
                     disabled
               ><span class="text-nowrap"
-               >8 June 2018, at 15:10</span></span></em></small>
+               >17 June 2018, at 12:34</span></span></em></small>
           </div>
         </div>
       </div>
