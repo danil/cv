@@ -3,6 +3,14 @@
 My curriculum vitae available in english <http://danil.kutkevich.org/en>
 and in russian (русский язык) <http://danil.kutkevich.org/ru>.
 
+## Run on localhost
+
+    go get github.com/cortesi/devd/cmd/devd
+    git clone https://github.com/danil/cv.git path/to/repo
+    devd --port=3000 --all --color path/to/repo
+
+## Copyright
+
 Copyright (C) 2018 Danil Kutkevich <danil@kutkevich.org>
 
 This CV is licensed under the Creative Commons Attribution-Share
